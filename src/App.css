@@ -1,0 +1,182 @@
+.App {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  grid-gap: 50px;
+}
+
+h1 {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.about {
+  grid-row: 1;
+  grid-column: 2;
+  /* margin: 40px 50px; */
+  /* height: 200px; */
+  /* background-color: #a1e9fe;
+  background-color: #c1f1fc; */
+  /* box-shadow: 15px 18px 15px -6px rgba(219, 219, 219, 1); */
+}
+
+.education {
+  grid-row: 2;
+  grid-column: 1;
+  /* background-color: #67c7da; */
+  margin: 20px 100px;
+  border-radius: 10px;
+  padding: 0px 40px;
+}
+
+/* #classes {
+  grid-row: 2;
+  grid-column: 2;
+} */
+
+.skills {
+  grid-row: 3;
+  grid-column: 1 / span 2;
+  margin: 0px 100px;
+  padding: 0px 40px;
+}
+
+.projects {
+  grid-row: 4;
+  grid-column: 1 / span 2;
+  margin: 0px 100px;
+  padding: 0px 40px;
+}
+
+#subtext {
+  margin: -20px 0 40px 18px;
+}
+
+#leftSide {
+  /* grid-row: 3;
+  grid-column: 1; */
+  /* background-color: #cdc1fc; */
+  float: left;
+}
+
+#rightSide {
+  /* grid-row: 3;
+  grid-column: 2; */
+  /* padding-top: 45px; */
+  /* background-color: #a1e9fe; */
+  float: right;
+  width: 30%;
+}
+
+h3 {
+  color: black;
+  font-size: 40px;
+  font-style: bold;
+}
+
+#aboutBlurb {
+  margin: 10% 10% 0 0;
+  width: 80%;
+}
+
+.contactIcons {
+  margin-top: 20px;
+  margin-right: 12px;
+  width: 50px;
+}
+
+.coding {
+  grid-row: 6;
+  margin: 40px 30px 0px 30px;
+  height: 200px;
+
+  background-color: #cefcc1;
+  background-color: #8be0f1;
+  box-shadow: 15px 18px 15px -6px rgba(219, 219, 219, 1);
+}
+
+.design {
+  grid-row: 7;
+  margin: 40px 30px 0px 30px;
+  height: 200px;
+
+  background-color: #dffcc1;
+  background-color: #67c7da;
+  background-color: #8be0f1;
+  box-shadow: 15px 18px 15px -6px rgba(219, 219, 219, 1);
+}
+
+.contact {
+  grid-row: 8;
+  margin: 40px 0px 0px 0px;
+  height: 200px;
+
+  background-color: #cdc1fc;
+  /* background-color: #FCC1E3; */
+  background-color: #67c7da;
+  box-shadow: 15px 18px 15px -6px rgba(219, 219, 219, 1);
+}
+
+.content {
+  position: relative;
+  top: 50px;
+  width: 100%;
+  text-align: center;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.5s;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
