@@ -2,7 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import circle from "./images/circle.png";
-import { Grid, Image } from "semantic-ui-react";
+import { Grid, Image, Card } from "semantic-ui-react";
 
 function App() {
   return (
@@ -104,35 +104,40 @@ function App() {
         <h2>Projects</h2>
         <p id="subtext">Here are some of my technical and design projects</p>
 
-        <Grid container columns={3} stackable>
+        <Grid container columns={4} stackable>
           <Grid.Column>
             <Image src={circle} />
-            <h4 style={{ textAlign: "center" }}>Project Title</h4>
+            <h4 style={{ textAlign: "center" }}>RE</h4>
           </Grid.Column>
           <Grid.Column>
             <Image src={circle} />
-            <h4 style={{ textAlign: "center" }}>Project Title</h4>
+            <h4 style={{ textAlign: "center" }}>TWS</h4>
           </Grid.Column>
           <Grid.Column>
             <Image src={circle} />
-            <h4 style={{ textAlign: "center" }}>Project Title</h4>
+            <h4 style={{ textAlign: "center" }}>Package Tracker</h4>
+          </Grid.Column>
+          <Grid.Column>
+            <Image src={circle} />
+            <h4 style={{ textAlign: "center" }}>Inkling or PetMatch</h4>
+          </Grid.Column>
+
+          <Grid.Column>
+            <Image src={circle} />
+            <h4 style={{ textAlign: "center" }}>JAG</h4>
+          </Grid.Column>
+          <Grid.Column>
+            <Image src={circle} />
+            <h4 style={{ textAlign: "center" }}>Screen Time</h4>
+          </Grid.Column>
+          <Grid.Column>
+            <button>GitHub</button>
+            <button>BeHance</button>
           </Grid.Column>
         </Grid>
       </div>
     </div>
-
-    // {/* <div className="resume"><h3>RESUME</h3></div>
-    // <div className="skills"><h3>SKILLS</h3></div>
-    // <div className="coding"><h3>CODING PROJECTS</h3></div>
-    // <div className="design"><h3>DESIGN PROJECTS</h3></div>
-    // <div className="contact"><h3>CONTACT</h3></div> */}
   );
 }
 
 export default App;
-// ABOUT
-// RESUME/EXPEREICNE
-// SKILLS
-// CODING WORKS
-// ART/DESIGN WORKS
-// CONTACT
