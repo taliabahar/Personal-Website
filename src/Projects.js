@@ -31,10 +31,9 @@ function Projects() {
             JavaScript, HTML, and individually created all artwork for app using
             Adobe Illustrator.
           </p>
-          {/* <p>RE is a _____. I used ______. I learned _____.</p> */}
         </Grid.Column>
         <Grid.Column>
-          <Image src={TWS} />
+          <Image src={TWS} alt="TWS Screen" />
           <h4 style={{ textAlign: "center" }}>TWS</h4>
           <p>
             The Whole Story is a news centered web app I worked on as the UX/UI
@@ -43,29 +42,35 @@ function Projects() {
             goal was to help the younger generation become politically-informed
             in a hollistic manner by removing avenues for implicit bias to enter
             their news stream leading to a deeper and more individualistic
-            political understanding. Coded in React Hooks, JavaScript, HTML, and
+            political understanding. Coded in React, JavaScript, HTML, and
             utilized Semantic UI. Also, individually wire framed, created all
             artwork for app using Adobe Illustrator, collected user research,
             and ran user tests.
           </p>
         </Grid.Column>
         <Grid.Column>
-          <Image src={PetMatch} />
+          <a target="_blank" href="https://github.com/taliabahar/pet-match">
+            <Image src={PetMatch} alt="Pet Match Screen" />
+          </a>
           <h4 style={{ textAlign: "center" }}>Pet Match</h4>
           <p>
-            Pet Match React is a web app I colloborated on with three other
-            students that uses the Petfinder API to help users find adoptable
-            animals near them that match their needs/desires by taking a short
-            quiz. Came up with concept and served as Project Manager for this
-            web app with the goal to promote the adoption of shelter animals to
-            help save animals who are being put down due to shelters closing
-            down and help mitigate the anxiety and boredom quarantining has
-            caused. Coded in JavaScript and React Hooks and uses React Router
-            and Semantic UI.
+            Pet Match is a web app I collaborated on with three other students
+            that uses the Petfinder API to help users find adoptable animals
+            near them that match their needs and desires by taking a short quiz.
+            Came up with concept and served as Project Manager for this web app
+            with the goal to promote the adoption of shelter animals to help
+            save animals who are being put down due to shelters closing down and
+            help mitigate the anxiety and boredom quarantining has caused. Coded
+            in JavaScript and React and uses React Router and Semantic UI.
           </p>
         </Grid.Column>
         <Grid.Column>
-          <Image src={JAG} />
+          <a
+            target="_blank"
+            href="https://www.behance.net/gallery/92505293/JAG"
+          >
+            <Image src={JAG} alt="JAG Screen" />
+          </a>
           <h4 style={{ textAlign: "center" }}>JAG</h4>
           <p>
             JAG served as my semester project for my Intro to User Expereince
@@ -79,7 +84,7 @@ function Projects() {
         </Grid.Column>
 
         <Grid.Column>
-          <Image src={PackTrack} />
+          <Image src={PackTrack} alt="Package Tracker Screen" />
           <h4 style={{ textAlign: "center" }}>Package Tracker</h4>
           <p>
             For my Interaction Design semester project I created a web app that
@@ -89,18 +94,18 @@ function Projects() {
             to satisfy Nielson’s 5 usability metrics. Researched popular
             usability guidelines and utilized 2 APIs (Shippo and MapBox) to
             display a package’s current status and location on a map within a
-            React Modal. Coded in React Hooks, JavaScript, and HTML and utilized
-            Adobe Illustrator for background illustration.
+            React Modal. Coded in React, JavaScript, and HTML and utilized Adobe
+            Illustrator for background illustration.
           </p>
         </Grid.Column>
         <Grid.Column>
-          <Image src={ScreenTime} />
+          <Image src={ScreenTime} alt="Screen Time Screen" />
           <h4 style={{ textAlign: "center" }}>Screen Time</h4>
           <p>
             ScreenTime is an app me and a partner created for an Adobe + Netflix
             sponsored UX Design Challenge in 24 hours. Came up with the concept
             ourselves then created an animated high fidelity prototype with 30
-            screens using Adobe XD.{" "}
+            screens using Adobe XD.
           </p>
         </Grid.Column>
       </Grid>

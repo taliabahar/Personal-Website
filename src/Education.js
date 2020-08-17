@@ -18,15 +18,15 @@ function Education() {
         </Grid.Column>
         <Grid.Column id="classes">
           <p>
-            Design Courses: User Experience Design, Computer Graphics, 2D
-            Design, Typography
+            <span>Design Courses:</span> User Experience Design, Computer
+            Graphics, 2D Design, Typography
           </p>
           <p>
-            Technical Courses: Data Structures, Algorithms, Interaction Design,
-            App Development Practicum, Operating Systems, Programming Languages,
-            Intro to Databases, Logic Design, Computer Graphics, Computer
-            Systems Design, Computer Systems Organization, Language Translation
-            and Implementation
+            <span>Technical Courses:</span> Data Structures, Algorithms,
+            Interaction Design, App Development Practicum, Operating Systems,
+            Programming Languages, Intro to Databases, Logic Design, Computer
+            Graphics, Computer Systems Design, Computer Systems Organization,
+            Language Translation and Implementation
           </p>
         </Grid.Column>
       </Grid>
