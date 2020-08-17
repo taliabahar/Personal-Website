@@ -1,0 +1,7 @@
+.education {
+  grid-row: 2;
+  grid-column: 1 / span 2;
+  margin: 20px 100px;
+  border-radius: 10px;
+  padding: 0px 40px;
+}

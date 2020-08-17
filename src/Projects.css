@@ -1,0 +1,10 @@
+.projects {
+  grid-row: 4;
+  grid-column: 1 / span 2;
+  margin: 0px 100px;
+  padding: 0px 40px;
+}
+
+#subtext {
+  margin: -10px 0 40px 18px;
+}
