@@ -8,3 +8,9 @@
 #subtext {
   margin: -10px 0 40px 18px;
 }
+
+h4 {
+  font-size: 25px !important;
+  font-family: "Rambla", sans-serif !important;
+  font-family: "Source Code Pro", monospace !important;
+}

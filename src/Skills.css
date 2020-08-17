@@ -1,0 +1,16 @@
+.skills {
+  grid-row: 3;
+  grid-column: 1 / span 2;
+  margin: 0px 100px;
+  padding: 0px 40px;
+}
+
+h3 {
+  color: black;
+  font-size: 30px !important;
+  font-style: bold;
+  /* font-family: "Lato", sans-serif !important; */
+  /* border-bottom: solid 2px #0dd; */
+  font-family: "Rambla", sans-serif !important;
+  font-family: "Source Code Pro", monospace !important;
+}

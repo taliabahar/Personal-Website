@@ -2,7 +2,7 @@ import React from "react";
 import { Grid, Image } from "semantic-ui-react";
 
 import "./App.css";
-// import "./Skills.css";
+import "./Skills.css";
 
 function Skills() {
   return (

@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import "./About.css";
+
 import { Grid, Image } from "semantic-ui-react";
 
 function About() {
