@@ -5,7 +5,7 @@ import TWS from "./images/TWSScreen.png";
 import PetMatch from "./images/PetMatchScreen.png";
 import PackTrack from "./images/track-08.png";
 import RE from "./images/REScreen.png";
-import ScreenTime from "./images/ScreenTimeScreen.png";
+import ScreenTime from "./images/ScreenTimeScreen-09.png";
 import JAG from "./images/JAGScreen2-07.png";
 
 import "./App.css";
@@ -23,7 +23,9 @@ function Projects() {
 
       <Grid container columns={3} stackable>
         <Grid.Column>
-          <Image src={RE} />
+          <a target="_blank" href="">
+            <Image src={RE} />
+          </a>
           <h4 style={{ textAlign: "center" }}>RE</h4>
           <p>
             RE is a web and soon to be mobile environmental app I served on as
@@ -33,7 +35,12 @@ function Projects() {
           </p>
         </Grid.Column>
         <Grid.Column>
-          <Image src={TWS} alt="TWS Screen" />
+          <a
+            target="_blank"
+            href="https://www.behance.net/gallery/101582319/The-Whole-Story"
+          >
+            <Image src={TWS} alt="TWS Screen" />
+          </a>
           <h4 style={{ textAlign: "center" }}>TWS</h4>
           <p>
             The Whole Story is a news centered web app I worked on as the UX/UI
@@ -45,7 +52,7 @@ function Projects() {
             political understanding. Coded in React, JavaScript, HTML, and
             utilized Semantic UI. Also, individually wire framed, created all
             artwork for app using Adobe Illustrator, collected user research,
-            and ran user tests.
+            created user personas, and ran user tests.
           </p>
         </Grid.Column>
         <Grid.Column>

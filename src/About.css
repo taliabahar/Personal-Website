@@ -23,10 +23,11 @@ h1 {
     0 0 4px black;
   letter-spacing: 5px;
   font-family: "Bungee Shade", cursive !important;
+  margin-top: 45px !important;
 }
 
 #aboutBlurb {
-  margin: 10% 10% 0 0;
+  margin: 15% 10% 0 0;
   width: 80%;
   font-size: 18px;
 }

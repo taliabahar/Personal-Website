@@ -1,12 +1,35 @@
 import React from "react";
 import "./App.css";
 import "./About.css";
+import Nav from "./Nav";
 
 import { Grid, Image } from "semantic-ui-react";
 
 function About() {
   return (
     <div className="about">
+      <Nav></Nav>
+      {/* <Menu attached="top">
+        <Dropdown item icon="wrench" simple>
+          <Dropdown.Menu>
+            <Dropdown.Item>
+              <Icon name="dropdown" />
+              <span className="text">New</span>
+              <Dropdown.Menu>
+                <Dropdown.Item>Document</Dropdown.Item>
+                <Dropdown.Item>Image</Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown.Item>
+            <Dropdown.Item>Open</Dropdown.Item>
+            <Dropdown.Item>Save...</Dropdown.Item>
+            <Dropdown.Item>Edit Permissions</Dropdown.Item>
+            <Dropdown.Divider />
+            <Dropdown.Header>Export</Dropdown.Header>
+            <Dropdown.Item>Share</Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
+      </Menu> */}
+
       <Grid columns={2} stackable>
         <Grid.Column>
           <h1>Hi! Nice to Meet You, I'm Talia</h1>

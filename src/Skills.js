@@ -39,7 +39,7 @@ function Skills() {
             <li>React</li>
             <li>CSS/SCSS</li>
             <li>HTML</li>
-            <li>APIs</li>
+            <li>API Integration</li>
             <li>Google App Engine</li>
           </ul>
           <h3>2 - UX Design </h3>
