@@ -30,6 +30,7 @@ function Education() {
           </p>
         </Grid.Column>
       </Grid>
+      <a id="skills"></a>
     </div>
   );
 }
