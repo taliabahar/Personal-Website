@@ -18,7 +18,7 @@ function About() {
           <div className="about">
             <p id="aboutBlurb">
               and I am looking for a job. I am a Los Angeles, CA native
-              graduating from Loyola Marymount Univeristy with a Bacehlor's in
+              graduating from Loyola Marymount University with a Bachelor's in
               Computer Science and a minor in Graphic Arts.
               <br></br>
               <br></br>Ever since elementary school art has been one of my
@@ -36,21 +36,21 @@ function About() {
               can go one step further by building dynamic user-friendly websites
               and applications that anyone can interact with.
               <br></br>
-              <br></br>During my time at LMU I've earned many opportunities to
+              <br></br>During my time at LMU, I've earned many opportunities to
               expand upon my passions and grow as a person. I was a participant
               then later TA for LMU's Google CSSIx program. I am the Events
               chair for the Association of Computing Machinery(ACM), a member of
               the Society of Women Engineers(SWE), and a member of Han Tao. I
               work as a Digital Media Assistant for the LMU Marketing and
               Communications department. I was also fortunate enough to
-              particpiate in LMU's Summer Opportunities for Advanced
+              participate in LMU's Summer Opportunities for Advanced
               Research(SOAR) program and Mozilla's LMU Spring Hackternship.
               <br></br>
               <br></br>
-              My background is in web develpment with a focus on front end, API
-              integration, accessibility, and graphic design but I also have a
+              My background is in web development with a focus on front-end, API
+              integration, accessibility, and graphic design. I also have a
               strong interest in transitioning my technical and design skills
-              into the UX/UI world. I am really interested in roles where I can
+              into the UX/UI world. I am very interested in roles where I can
               combine both my technical and design skills to have a positive
               impact on peoples' daily lives.
             </p>
