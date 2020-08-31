@@ -3,7 +3,7 @@ import { Grid, Image } from "semantic-ui-react";
 import TWS from "./images/TWSScreen.png";
 import PetMatch from "./images/PetMatchScreen.png";
 import RE from "./images/REScreen.png";
-import ScreenTime from "./images/ScreenTimeScreen.png";
+import ScreenTime from "./images/ScreenTimeScreen 2.png";
 import JAG from "./images/JAGScreen.png";
 import PackTrack from "./images/PackTrackScreen.png";
 
@@ -20,7 +20,7 @@ function Projects() {
         <a href="https://www.behance.net/taliabahar"> Behance</a>.
       </p>
 
-      <Grid container columns={3} stackable>
+      <Grid container columns={3} stackable doubling>
         <Grid.Column>
           <a target="_blank" href="https://github.com/taliabahar/pet-match">
             <Image src={PetMatch} alt="Pet Match Screen" />

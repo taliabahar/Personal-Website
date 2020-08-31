@@ -96,10 +96,12 @@ function About() {
                 </div>
               </a>
             </div>
-            <button className="aboutBtn">RESUME</button>
-            <a href="mailto:tbahar@lion.lmu.edu.com">
-              <button className="aboutBtn">CONTACT ME :)</button>
-            </a>
+            <div className="aboutBtns">
+              <button className="aboutBtn">RESUME</button>
+              <a href="mailto:tbahar@lion.lmu.edu.com">
+                <button className="aboutBtn">CONTACT ME :)</button>
+              </a>
+            </div>
           </div>
         </Grid.Column>
       </Grid>
