@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import "./About.css";
+import "./sectionStyles/About.css";
 import Nav from "./Nav";
 
 import { Grid, Image } from "semantic-ui-react";

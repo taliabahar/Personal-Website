@@ -56,7 +56,7 @@ export default class MenuExampleSecondary extends Component {
             name="contact"
             active={activeItem === "logout"}
             onClick={this.handleItemClick}
-            href=""
+            href="mailto:tbahar@lion.lmu.edu.com"
           />
         </Menu.Menu>
       </Menu>

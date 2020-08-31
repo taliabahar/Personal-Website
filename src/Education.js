@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import "./Education.css";
+import "./sectionStyles/Education.css";
 
 import { Grid, Image, Card } from "semantic-ui-react";
 

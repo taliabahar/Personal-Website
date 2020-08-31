@@ -1,15 +1,14 @@
 import React from "react";
 import { Grid, Image } from "semantic-ui-react";
-import circle from "./images/circle.png";
 import TWS from "./images/TWSScreen.png";
 import PetMatch from "./images/PetMatchScreen.png";
-import PackTrack from "./images/track-08.png";
 import RE from "./images/REScreen.png";
-import ScreenTime from "./images/ScreenTimeScreen-09.png";
-import JAG from "./images/JAGScreen2-07.png";
+import ScreenTime from "./images/ScreenTimeScreen.png";
+import JAG from "./images/JAGScreen.png";
+import PackTrack from "./images/PackTrackScreen.png";
 
 import "./App.css";
-import "./Projects.css";
+import "./sectionStyles/Projects.css";
 
 function Projects() {
   return (
@@ -23,15 +22,39 @@ function Projects() {
 
       <Grid container columns={3} stackable>
         <Grid.Column>
-          <a target="_blank" href="">
-            <Image src={RE} />
+          <a target="_blank" href="https://github.com/taliabahar/pet-match">
+            <Image src={PetMatch} alt="Pet Match Screen" />
           </a>
-          <h4 style={{ textAlign: "center" }}>RE</h4>
+          <h4 style={{ textAlign: "center" }}>Pet Match</h4>
           <p>
-            RE is a web and soon to be mobile environmental app I served on as
-            the UX/UI lead + Front End Developer on. Coded in React Hooks,
-            JavaScript, HTML, and individually created all artwork for app using
-            Adobe Illustrator.
+            Pet Match is a web app I collaborated on with three other students
+            that uses the Petfinder API to help users find adoptable animals
+            near them that match their needs and desires by taking a short quiz.
+            Came up with concept and served as Project Manager for this web app
+            with the goal to promote the adoption of shelter animals to help
+            save animals who are being put down due to shelters closing down and
+            help mitigate the anxiety and boredom quarantining has caused. Coded
+            in JavaScript and React and uses React Router and Semantic UI.
+          </p>
+        </Grid.Column>
+        <Grid.Column>
+          <a
+            target="_blank"
+            href="https://github.com/taliabahar/package-tracker"
+          >
+            <Image src={PackTrack} alt="Package Tracker Screen" />
+          </a>
+          <h4 style={{ textAlign: "center" }}>Package Tracker</h4>
+          <p>
+            For my Interaction Design semester project I created a web app that
+            consolidates shipments so users can easily and more efficiently
+            track their packages given a carrier and tracking number. I
+            wireframed then created a single-page React Hooks web app designed
+            to satisfy Nielson’s 5 usability metrics. Researched popular
+            usability guidelines and utilized 2 APIs (Shippo and MapBox) to
+            display a package’s current status and location on a map within a
+            React Modal. Coded in React, JavaScript, and HTML and utilized Adobe
+            Illustrator for background illustration.
           </p>
         </Grid.Column>
         <Grid.Column>
@@ -55,20 +78,17 @@ function Projects() {
             created user personas, and ran user tests.
           </p>
         </Grid.Column>
+
         <Grid.Column>
-          <a target="_blank" href="https://github.com/taliabahar/pet-match">
-            <Image src={PetMatch} alt="Pet Match Screen" />
+          <a target="_blank" href="">
+            <Image src={RE} />
           </a>
-          <h4 style={{ textAlign: "center" }}>Pet Match</h4>
+          <h4 style={{ textAlign: "center" }}>RE</h4>
           <p>
-            Pet Match is a web app I collaborated on with three other students
-            that uses the Petfinder API to help users find adoptable animals
-            near them that match their needs and desires by taking a short quiz.
-            Came up with concept and served as Project Manager for this web app
-            with the goal to promote the adoption of shelter animals to help
-            save animals who are being put down due to shelters closing down and
-            help mitigate the anxiety and boredom quarantining has caused. Coded
-            in JavaScript and React and uses React Router and Semantic UI.
+            RE is a web and soon to be mobile environmental app I served on as
+            the UX/UI lead + Front End Developer on. Coded in React Hooks,
+            JavaScript, HTML, and individually created all artwork for app using
+            Adobe Illustrator.
           </p>
         </Grid.Column>
         <Grid.Column>
@@ -87,22 +107,6 @@ function Projects() {
             journey maps, an information architecture, style guide, and story
             board. Conducted user interviews and tests multiple times throughout
             the design process. Utilized Adobe XD and Illustrator.
-          </p>
-        </Grid.Column>
-
-        <Grid.Column>
-          <Image src={PackTrack} alt="Package Tracker Screen" />
-          <h4 style={{ textAlign: "center" }}>Package Tracker</h4>
-          <p>
-            For my Interaction Design semester project I created a web app that
-            consolidates shipments so users can easily and more efficiently
-            track their packages given a carrier and tracking number. I
-            wireframed then created a single-page React Hooks web app designed
-            to satisfy Nielson’s 5 usability metrics. Researched popular
-            usability guidelines and utilized 2 APIs (Shippo and MapBox) to
-            display a package’s current status and location on a map within a
-            React Modal. Coded in React, JavaScript, and HTML and utilized Adobe
-            Illustrator for background illustration.
           </p>
         </Grid.Column>
         <Grid.Column>
