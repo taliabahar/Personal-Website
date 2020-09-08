@@ -3,7 +3,7 @@ import { Grid, Image } from "semantic-ui-react";
 import TWS from "./images/TWSScreen.png";
 import PetMatch from "./images/PetMatchScreen.png";
 import RE from "./images/REScreen.png";
-import ScreenTime from "./images/ScreenTimeScreen 2.png";
+import ScreenTime from "./images/ScreenTimeScreen.png";
 import JAG from "./images/JAGScreen.png";
 import PackTrack from "./images/PackTrackScreen.png";
 
@@ -32,9 +32,9 @@ function Projects() {
             near them that match their needs and desires by taking a short quiz.
             Came up with concept and served as Project Manager for this web app
             with the goal to promote the adoption of shelter animals to help
-            save animals who are being put down due to shelters closing down and
-            help mitigate the anxiety and boredom quarantining has caused. Coded
-            in JavaScript and React and uses React Router and Semantic UI.
+            save animals amidst shelters closing down and to help mitigate the
+            anxiety and boredom quarantining has caused. Coded in React,
+            JavaScript, HTML and uses React Router and Semantic UI.
           </p>
         </Grid.Column>
         <Grid.Column>
@@ -53,7 +53,7 @@ function Projects() {
             to satisfy Nielson’s 5 usability metrics. Researched popular
             usability guidelines and utilized 2 APIs (Shippo and MapBox) to
             display a package’s current status and location on a map within a
-            React Modal. Coded in React, JavaScript, and HTML and utilized Adobe
+            React Modal. Coded in React, JavaScript, HTML and utilized Adobe
             Illustrator for background illustration.
           </p>
         </Grid.Column>
@@ -78,17 +78,20 @@ function Projects() {
             research, created user personas, and ran user tests.
           </p>
         </Grid.Column>
-
         <Grid.Column>
-          <a target="_blank" href="">
+          <a
+            target="_blank"
+            href="https://www.behance.net/gallery/101712551/RE-Web-App"
+          >
             <Image src={RE} />
           </a>
           <h4 style={{ textAlign: "center" }}>RE</h4>
           <p>
-            RE is a web and (soon to be) mobile environmental app I am currently
+            RE is a developing web and mobile environmental app I am currently
             working on as the UX/UI lead and a Front End Developer. Coded in
-            React Hooks, JavaScript, HTML, and individually created all artwork
-            for the app using Adobe Illustrator.
+            both React and React Native. Individually wireframed and created all
+            digital artwork for web and mobile app versions using Adobe XD and
+            Illustrator.
           </p>
         </Grid.Column>
         <Grid.Column>
@@ -101,20 +104,25 @@ function Projects() {
           <h4 style={{ textAlign: "center" }}>JAG</h4>
           <p>
             JAG served as my semester project for my Intro to User Experience
-            Design class. My partner and I came up with the app concept to help
-            college students form genuine connections amidst social and academic
-            anxieties. Created low, mid, and high fidelity wireframes, user
-            journey maps, an information architecture, style guide, and
-            storyboard. Conducted user interviews and tests multiple times
-            throughout the design process. Utilized Adobe XD and Illustrator.
+            Design class. My partner and I developed an original app idea to
+            help college students form genuine connections amidst social and
+            academic anxieties. Created low, mid, and high fidelity wireframes,
+            user journey maps, an information architecture, a style guide, and a
+            storyboard. Conducted multiple user interviews and tests throughout
+            the design process. Utilized Adobe XD and Illustrator.
           </p>
         </Grid.Column>
         <Grid.Column>
-          <Image src={ScreenTime} alt="Screen Time Screen" />
+          <a
+            target="_blank"
+            href="https://www.behance.net/gallery/102711929/ScreenTime-Adobe-Creative-Jam-x-Netflix"
+          >
+            <Image src={ScreenTime} alt="Screen Time Screen" />
+          </a>
           <h4 style={{ textAlign: "center" }}>Screen Time</h4>
           <p>
-            ScreenTime is an app a partner and I created for an Adobe + Netflix
-            sponsored UX Design Challenge in 24 hours. Came up with the concept
+            ScreenTime is an app a partner and I created in 24 hours for an
+            Adobe + Netflix sponsored UX Design Jam. Came up with the concept
             ourselves then created an animated high fidelity prototype with 30
             screens using Adobe XD.
           </p>

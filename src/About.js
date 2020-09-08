@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import "./sectionStyles/About.css";
 import Nav from "./Nav";
+import Resume from "./documents/Resume:TaliaBahar.pdf";
 
 import { Grid, Image } from "semantic-ui-react";
 
@@ -97,7 +98,9 @@ function About() {
               </a>
             </div>
             <div className="aboutBtns">
-              <button className="aboutBtn">RESUME</button>
+              <a href={Resume}>
+                <button className="aboutBtn">RESUME</button>
+              </a>
               <a href="mailto:tbahar@lion.lmu.edu.com">
                 <button className="aboutBtn">CONTACT ME :)</button>
               </a>
