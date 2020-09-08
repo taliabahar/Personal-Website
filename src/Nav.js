@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Menu } from "semantic-ui-react";
 import icon from "./images/TB.png";
+import Resume from "./documents/Resume:TaliaBahar.pdf";
 
 export default class MenuExampleSecondary extends Component {
   state = { activeItem: "home" };
@@ -58,7 +59,7 @@ export default class MenuExampleSecondary extends Component {
           <Menu.Item
             name="resume"
             onClick={this.handleItemClick}
-            href="./documents/Resume:TaliaBahar.pdf"
+            href={Resume}
             target="newTab"
           />
           <Menu.Item
