@@ -13,7 +13,7 @@ function Education() {
           <div className="educationBlurb">
             <p>Loyola Marymount University</p>
             <p>Bachelor of Science, Computer Science Graphic Arts Minor</p>
-            <p>August 2017-May 2021 GPA: 3.47</p>
+            <p>August 2017-May 2021 / GPA: 3.47</p>
           </div>
         </Grid.Column>
         <Grid.Column id="classes">
@@ -27,6 +27,10 @@ function Education() {
             Programming Languages, Intro to Databases, Logic Design, Computer
             Graphics, Computer Systems Design, Computer Systems Organization,
             Language Translation and Implementation
+          </p>
+          <p>
+            <span>Affiliations:</span> Association of Computing Machinery(Events
+            Chair), Society of Women Engineers(Member), Han Tao(Member)
           </p>
         </Grid.Column>
       </Grid>
