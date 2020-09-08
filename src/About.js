@@ -4,7 +4,7 @@ import "./sectionStyles/About.css";
 import Nav from "./Nav";
 import Resume from "./documents/Resume:TaliaBahar.pdf";
 
-import { Grid, Image } from "semantic-ui-react";
+import { Grid } from "semantic-ui-react";
 
 function About() {
   return (
@@ -56,8 +56,8 @@ function About() {
               impact on peoples' daily lives.
             </p>
 
-            <div class="button-container">
-              <div class="glass-btn blue-btn">
+            <div className="button-container">
+              <div className="glass-btn blue-btn">
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/talia-bahar-b65920145/ "
@@ -69,7 +69,7 @@ function About() {
                   />
                 </a>
               </div>
-              <div class="glass-btn purple-btn">
+              <div className="glass-btn purple-btn">
                 <a target="_blank" href="https://github.com/taliabahar">
                   <img
                     src="https://cdn3.iconfinder.com/data/icons/flat-icons-web/40/GitHub-512.png"
@@ -78,7 +78,7 @@ function About() {
                   />
                 </a>
               </div>
-              <div class="glass-btn darkblue-btn">
+              <div className="glass-btn darkblue-btn">
                 <a target="_blank" href="https://www.behance.net/taliabahar">
                   <img
                     src="https://cdn4.iconfinder.com/data/icons/social-media-2210/24/Behance-512.png"
@@ -88,7 +88,7 @@ function About() {
                 </a>
               </div>
               <a target="_blank" href="https://dribbble.com/taliabahar">
-                <div class="glass-btn pink-btn">
+                <div className="glass-btn pink-btn">
                   <img
                     src="https://cdn0.iconfinder.com/data/icons/shift-logotypes/32/Dribbble-128.png"
                     alt="dribble"
@@ -98,7 +98,7 @@ function About() {
               </a>
             </div>
             <div className="aboutBtns">
-              <a href={Resume}>
+              <a href={Resume} target="newTab">
                 <button className="aboutBtn">RESUME</button>
               </a>
               <a href="mailto:tbahar@lion.lmu.edu.com">

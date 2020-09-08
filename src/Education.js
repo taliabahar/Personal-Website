@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import "./sectionStyles/Education.css";
 
-import { Grid, Image, Card } from "semantic-ui-react";
+import { Grid } from "semantic-ui-react";
 
 function Education() {
   return (
@@ -10,7 +10,7 @@ function Education() {
       <h2>Education</h2>
       <Grid columns={2} stackable>
         <Grid.Column>
-          <div class="educationBlurb">
+          <div className="educationBlurb">
             <p>Loyola Marymount University</p>
             <p>Bachelor of Science, Computer Science Graphic Arts Minor</p>
             <p>August 2017-May 2021 GPA: 3.47</p>

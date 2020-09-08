@@ -22,7 +22,7 @@ function Projects() {
 
       <Grid container columns={3} stackable doubling>
         <Grid.Column>
-          <a target="_blank" href="https://github.com/taliabahar/pet-match">
+          <a target="newTab" href="https://github.com/taliabahar/pet-match">
             <Image src={PetMatch} alt="Pet Match Screen" />
           </a>
           <h4 style={{ textAlign: "center" }}>Pet Match</h4>
@@ -39,7 +39,7 @@ function Projects() {
         </Grid.Column>
         <Grid.Column>
           <a
-            target="_blank"
+            target="newTab"
             href="https://github.com/taliabahar/package-tracker"
           >
             <Image src={PackTrack} alt="Package Tracker Screen" />
@@ -59,7 +59,7 @@ function Projects() {
         </Grid.Column>
         <Grid.Column>
           <a
-            target="_blank"
+            target="newTab"
             href="https://www.behance.net/gallery/101582319/The-Whole-Story"
           >
             <Image src={TWS} alt="TWS Screen" />
@@ -80,7 +80,7 @@ function Projects() {
         </Grid.Column>
         <Grid.Column>
           <a
-            target="_blank"
+            target="newTab"
             href="https://www.behance.net/gallery/101712551/RE-Web-App"
           >
             <Image src={RE} />
@@ -96,7 +96,7 @@ function Projects() {
         </Grid.Column>
         <Grid.Column>
           <a
-            target="_blank"
+            target="newTab"
             href="https://www.behance.net/gallery/92505293/JAG"
           >
             <Image src={JAG} alt="JAG Screen" />
@@ -114,7 +114,7 @@ function Projects() {
         </Grid.Column>
         <Grid.Column>
           <a
-            target="_blank"
+            target="newTab"
             href="https://www.behance.net/gallery/102711929/ScreenTime-Adobe-Creative-Jam-x-Netflix"
           >
             <Image src={ScreenTime} alt="Screen Time Screen" />
