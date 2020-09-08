@@ -30,7 +30,6 @@ export default class MenuExampleSecondary extends Component {
             marginRight: "1.2%",
           }}
         ></img>
-
         <Menu.Item
           name="home"
           active={activeItem === "home"}
