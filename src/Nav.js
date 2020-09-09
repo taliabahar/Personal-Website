@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Menu } from "semantic-ui-react";
 import icon from "./images/TB.png";
-import Resume from "./documents/Resume:TaliaBahar.pdf";
+import Resume from "./documents/Resume-TaliaBahar.pdf";
 
 export default class MenuExampleSecondary extends Component {
   state = { activeItem: "home" };
