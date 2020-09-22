@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc024e07a5e14bbea031ebfe48f6a2fc",
+    "revision": "9b94e59cd17450295176a22455484d62",
     "url": "/Personal-Website/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Personal-Website/static/css/2.971e4490.chunk.css"
   },
   {
-    "revision": "a9832f12cd15409bdcbd",
+    "revision": "1fa0e7a914f497440074",
     "url": "/Personal-Website/static/css/main.ce94e41a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Personal-Website/static/js/2.adf0acf3.chunk.js"
   },
   {
-    "revision": "a9832f12cd15409bdcbd",
-    "url": "/Personal-Website/static/js/main.c23322c4.chunk.js"
+    "revision": "1fa0e7a914f497440074",
+    "url": "/Personal-Website/static/js/main.4eb4aa23.chunk.js"
   },
   {
     "revision": "045284a5137f81179867",
@@ -40,12 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Personal-Website/static/media/REScreen.24c4711f.png"
   },
   {
-    "revision": "ac52931067d4d0cc7943125348fba2aa",
-    "url": "/Personal-Website/static/media/Resume(TaliaBahar).ac529310.pdf"
+    "revision": "0befc74fa981dc6b23030aa07e34cddf",
+    "url": "/Personal-Website/static/media/Resume(TaliaBahar).0befc74f.pdf"
   },
   {
-    "revision": "325c4b8cfb0ea1e7cb9d7e7492ac0fba",
-    "url": "/Personal-Website/static/media/ScreenTimeScreen.325c4b8c.png"
+    "revision": "368aedcc0a038854eaa87404cafb0077",
+    "url": "/Personal-Website/static/media/ScreenTimeScreen.368aedcc.png"
   },
   {
     "revision": "ba22d350cdb4d5bae694aa371605e354",
