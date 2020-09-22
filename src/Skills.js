@@ -13,7 +13,8 @@ function Skills() {
           <h3>Languages</h3>
           <ul>
             <li>JavaScript</li>
-            <li>HTML/CSS</li>
+            <li>HTML</li>
+            <li>CSS/Sass</li>
             <li>Java</li>
             <li>Python</li>
           </ul>
@@ -59,8 +60,9 @@ function Skills() {
             <li>User Interface Design</li>
             <li>Interaction Design</li>
             <li>Website &amp; Digital Design</li>
-            <li>Brading &amp; Visual Identity</li>
+            <li>Branding &amp; Logo Design</li>
             <li>Illustration</li>
+            <li>Presentation Design</li>
             <li>Drawing</li>
           </ul>
         </Grid.Column>

@@ -67,15 +67,16 @@ function Projects() {
           <h4 style={{ textAlign: "center" }}>TWS</h4>
           <p>
             The Whole Story is a news centered web app I worked on as the UX/UI
-            lead + Front End Developer on with two other students as part of the
-            Mozilla Builders LMU Spring 2020 Hackternship. The Whole Story's
-            goal was to help the younger generation become politically-informed
-            in a holistic manner by removing avenues for implicit bias to enter
-            their news stream leading to a deeper and more individualistic
-            political understanding. Coded in React, JavaScript, HTML, and
-            utilized Semantic UI. Also, individually wire-framed, created all
-            artwork for the app using Adobe Illustrator, collected user
-            research, created user personas, and ran user tests.
+            lead + Front End Developer on with two other students as part of
+            Mozilla's Fix-the-Internet Spring 2020 Hackternship. The Whole
+            Story's goal was to help the younger generation become
+            politically-informed in a holistic manner by removing avenues for
+            implicit bias to enter their news stream leading to a deeper and
+            more individualistic political understanding. Coded in React,
+            JavaScript, HTML, and utilized Semantic UI. Also, individually
+            wire-framed, created all artwork for the app using Adobe
+            Illustrator, collected user research, created user personas, and ran
+            user tests.
           </p>
         </Grid.Column>
         <Grid.Column>

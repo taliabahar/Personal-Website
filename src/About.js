@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import "./sectionStyles/About.css";
 import Nav from "./Nav";
-import Resume from "./documents/Resume-TaliaBahar.pdf";
+import Resume from "./documents/Resume(TaliaBahar).pdf";
 
 import { Grid } from "semantic-ui-react";
 
@@ -45,7 +45,8 @@ function About() {
               work as a Digital Media Assistant for the LMU Marketing and
               Communications department. I was also fortunate enough to
               participate in LMU's Summer Opportunities for Advanced
-              Research(SOAR) program and Mozilla's LMU Spring Hackternship.
+              Research(SOAR) program and Mozilla's Fix-the-Internet
+              Hackternship.
               <br></br>
               <br></br>
               My background is in web development with a focus on front-end, API
