@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import "./sectionStyles/About.css";
 import Nav from "./Nav";
-import Resume from "./documents/Resume(TaliaBahar).pdf";
+import Resume from "./documents/TaliaBahar-Resume.pdf";
 
 import { Grid } from "semantic-ui-react";
 
