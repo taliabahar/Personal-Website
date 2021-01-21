@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "26d47169c0fd1d717bd8e03b77965ee5",
+    "revision": "d3b9e370a8db96ecae0778ad7bb6175c",
     "url": "/Personal-Website/index.html"
   },
   {
-    "revision": "b8441a3f5399ff166f48",
+    "revision": "a751ddcc1e19cbd53f57",
     "url": "/Personal-Website/static/css/2.971e4490.chunk.css"
   },
   {
-    "revision": "68ae62fd464d107fd9e3",
-    "url": "/Personal-Website/static/css/main.ce94e41a.chunk.css"
+    "revision": "1ccec8d754ece17b9605",
+    "url": "/Personal-Website/static/css/main.1fd2a65b.chunk.css"
   },
   {
-    "revision": "b8441a3f5399ff166f48",
-    "url": "/Personal-Website/static/js/2.adf0acf3.chunk.js"
+    "revision": "a751ddcc1e19cbd53f57",
+    "url": "/Personal-Website/static/js/2.c4e54070.chunk.js"
   },
   {
-    "revision": "68ae62fd464d107fd9e3",
-    "url": "/Personal-Website/static/js/main.d16869e5.chunk.js"
+    "revision": "1ccec8d754ece17b9605",
+    "url": "/Personal-Website/static/js/main.bda378e8.chunk.js"
   },
   {
     "revision": "045284a5137f81179867",
@@ -48,8 +48,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Personal-Website/static/media/TWSScreen.ba22d350.png"
   },
   {
-    "revision": "effd70ea1f21eec5b037121e0db3d12a",
-    "url": "/Personal-Website/static/media/TaliaBahar-Resume.effd70ea.pdf"
+    "revision": "c054ec49f0be10a16e0336ab5d7d4fd9",
+    "url": "/Personal-Website/static/media/TaliaBahar(Resume).c054ec49.pdf"
+  },
+  {
+    "revision": "e41bbafedce1191fe6ea13e0c9856d1c",
+    "url": "/Personal-Website/static/media/TaliaBahar_DesignResume.e41bbafe.pdf"
   },
   {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",

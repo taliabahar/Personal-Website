@@ -1,32 +1,33 @@
 {
   "files": {
-    "main.css": "/Personal-Website/static/css/main.ce94e41a.chunk.css",
-    "main.js": "/Personal-Website/static/js/main.d16869e5.chunk.js",
-    "main.js.map": "/Personal-Website/static/js/main.d16869e5.chunk.js.map",
+    "main.css": "/Personal-Website/static/css/main.1fd2a65b.chunk.css",
+    "main.js": "/Personal-Website/static/js/main.bda378e8.chunk.js",
+    "main.js.map": "/Personal-Website/static/js/main.bda378e8.chunk.js.map",
     "runtime-main.js": "/Personal-Website/static/js/runtime-main.107831b7.js",
     "runtime-main.js.map": "/Personal-Website/static/js/runtime-main.107831b7.js.map",
     "static/css/2.971e4490.chunk.css": "/Personal-Website/static/css/2.971e4490.chunk.css",
-    "static/js/2.adf0acf3.chunk.js": "/Personal-Website/static/js/2.adf0acf3.chunk.js",
-    "static/js/2.adf0acf3.chunk.js.map": "/Personal-Website/static/js/2.adf0acf3.chunk.js.map",
+    "static/js/2.c4e54070.chunk.js": "/Personal-Website/static/js/2.c4e54070.chunk.js",
+    "static/js/2.c4e54070.chunk.js.map": "/Personal-Website/static/js/2.c4e54070.chunk.js.map",
     "index.html": "/Personal-Website/index.html",
-    "precache-manifest.f353db2ed1a6f8e277c343508d43b485.js": "/Personal-Website/precache-manifest.f353db2ed1a6f8e277c343508d43b485.js",
+    "precache-manifest.312d2b79c0467fce8406e0e44c56bd3f.js": "/Personal-Website/precache-manifest.312d2b79c0467fce8406e0e44c56bd3f.js",
     "service-worker.js": "/Personal-Website/service-worker.js",
     "static/css/2.971e4490.chunk.css.map": "/Personal-Website/static/css/2.971e4490.chunk.css.map",
-    "static/css/main.ce94e41a.chunk.css.map": "/Personal-Website/static/css/main.ce94e41a.chunk.css.map",
+    "static/css/main.1fd2a65b.chunk.css.map": "/Personal-Website/static/css/main.1fd2a65b.chunk.css.map",
     "static/media/JAGScreen.png": "/Personal-Website/static/media/JAGScreen.e0a26f77.png",
     "static/media/PackTrackScreen.png": "/Personal-Website/static/media/PackTrackScreen.e0f94eae.png",
     "static/media/PetMatchScreen.png": "/Personal-Website/static/media/PetMatchScreen.0a3c031f.png",
     "static/media/REScreen.png": "/Personal-Website/static/media/REScreen.24c4711f.png",
     "static/media/ScreenTimeScreen.png": "/Personal-Website/static/media/ScreenTimeScreen.325c4b8c.png",
     "static/media/TWSScreen.png": "/Personal-Website/static/media/TWSScreen.ba22d350.png",
-    "static/media/TaliaBahar-Resume.pdf": "/Personal-Website/static/media/TaliaBahar-Resume.effd70ea.pdf",
+    "static/media/TaliaBahar(Resume).pdf": "/Personal-Website/static/media/TaliaBahar(Resume).c054ec49.pdf",
+    "static/media/TaliaBahar_DesignResume.pdf": "/Personal-Website/static/media/TaliaBahar_DesignResume.e41bbafe.pdf",
     "static/media/semantic.min.css": "/Personal-Website/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.107831b7.js",
     "static/css/2.971e4490.chunk.css",
-    "static/js/2.adf0acf3.chunk.js",
-    "static/css/main.ce94e41a.chunk.css",
-    "static/js/main.d16869e5.chunk.js"
+    "static/js/2.c4e54070.chunk.js",
+    "static/css/main.1fd2a65b.chunk.css",
+    "static/js/main.bda378e8.chunk.js"
   ]
 }
