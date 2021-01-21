@@ -38,29 +38,3 @@ h2 {
     0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
     0 0 4px black;
 }
-
-/* .education {
-  grid-row: 2;
-  grid-column: 1 / span 2;
-  margin: 20px 100px;
-  border-radius: 10px;
-  padding: 0px 40px;
-  display: grid;
-}
-
-.skills {
-  grid-row: 3;
-  grid-column: 1 / span 2;
-  margin: 0px 100px;
-  padding: 0px 40px;
-  display: grid;
-}
-
-.projects {
-  grid-row: 4;
-  grid-column: 1 / span 2;
-  margin: 0px 100px;
-  padding: 0px 40px;
-  margin-bottom: 80px !important;
-  display: grid;
-} */

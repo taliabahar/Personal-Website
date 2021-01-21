@@ -2,8 +2,8 @@ import React from "react";
 import "./App.css";
 import "./sectionStyles/About.css";
 import Nav from "./Nav";
-import Resume from "./documents/TaliaBahar-Resume.pdf";
-
+import Resume from "./documents/TaliaBahar(Resume).pdf";
+import DesignResume from "./documents/TaliaBahar_DesignResume.pdf";
 import { Grid } from "semantic-ui-react";
 
 function About() {
@@ -18,9 +18,10 @@ function About() {
         <Grid.Column>
           <div className="about">
             <p id="aboutBlurb">
-              and I am looking for a job. I am a Los Angeles, CA native
-              graduating from Loyola Marymount University with a Bachelor's in
-              Computer Science and a minor in Graphic Arts.
+              and I am looking for full time positions at the intersection of
+              design and technology. I am a Los Angeles, CA native graduating
+              from Loyola Marymount University with a Bachelor's in Computer
+              Science and a minor in Graphic Arts.
               <br></br>
               <br></br>Ever since elementary school art has been one of my
               passions. I love how in art anyone can turn nothing into
@@ -46,14 +47,17 @@ function About() {
               Communications department. I was also fortunate enough to
               participate in LMU's Summer Opportunities for Advanced
               Research(SOAR) program and Mozilla's Fix-the-Internet
-              Hackternship.
+              Hackternship. Outside of school, I enjoy working on personal
+              projects to build my programming skills, attending design jams to
+              build my user experience skills, and creating fun illustrations
+              and logos to express myself creatively.
               <br></br>
               <br></br>
-              My background is in web development with a focus on front-end, API
-              integration, accessibility, and graphic design. I also have a
-              strong interest in transitioning my technical and design skills
-              into the UX/UI world. I am very interested in roles where I can
-              combine both my technical and design skills to have a positive
+              My background is in web development with a focus on front-end,
+              React, API integration, accessibility, and graphic design. I also
+              have a strong interest in transitioning my technical and design
+              skills into the UX/UI world. I am very interested in roles where I
+              can combine both my technical and design skills to have a positive
               impact on peoples' daily lives.
             </p>
 
@@ -100,7 +104,10 @@ function About() {
             </div>
             <div className="aboutBtns">
               <a href={Resume} target="newTab">
-                <button className="aboutBtn">RESUME</button>
+                <button className="aboutBtn">TECHNICAL RESUME</button>
+              </a>
+              <a href={DesignResume} target="newTab">
+                <button className="aboutBtn">DESIGN RESUME</button>
               </a>
               <a href="mailto:tbahar@lion.lmu.edu.com">
                 <button className="aboutBtn">CONTACT ME :)</button>

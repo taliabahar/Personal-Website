@@ -30,11 +30,11 @@ function Projects() {
             Pet Match is a web app I collaborated on with three other students
             that uses the Petfinder API to help users find adoptable animals
             near them that match their needs and desires by taking a short quiz.
-            Came up with concept and served as Project Manager for this web app
-            with the goal to promote the adoption of shelter animals to help
+            I came up with concept and served as Project Manager for this web
+            app with the goal to promote the adoption of shelter animals to help
             save animals amidst shelters closing down and to help mitigate the
             anxiety and boredom quarantining has caused. Coded in React,
-            JavaScript, HTML and uses React Router and Semantic UI.
+            JavaScript, HTML/CSS and utilizes React Router and Semantic UI.
           </p>
         </Grid.Column>
         <Grid.Column>
@@ -67,16 +67,16 @@ function Projects() {
           <h4 style={{ textAlign: "center" }}>TWS</h4>
           <p>
             The Whole Story is a news centered web app I worked on as the UX/UI
-            lead + Front End Developer on with two other students as part of
-            Mozilla's Fix-the-Internet Spring 2020 Hackternship. The Whole
-            Story's goal was to help the younger generation become
-            politically-informed in a holistic manner by removing avenues for
-            implicit bias to enter their news stream leading to a deeper and
-            more individualistic political understanding. Coded in React,
-            JavaScript, HTML, and utilized Semantic UI. Also, individually
-            wire-framed, created all artwork for the app using Adobe
-            Illustrator, collected user research, created user personas, and ran
-            user tests.
+            lead and as a Front End Developer on with two other students as part
+            of Mozilla's Fix-the-Internet Spring 2020 Hackternship to address
+            misinformation online. The Whole Story's goal was to help the
+            younger generation become politically-informed in a holistic manner
+            by removing avenues for implicit bias to enter their news stream
+            leading to a deeper and more individualistic political
+            understanding. Coded in React, JavaScript, HTML/CSS, and utilized
+            Semantic UI. Individually wire-framed, created all artwork for the
+            app using Adobe Illustrator, collected user research, created user
+            personas, and ran user tests.
           </p>
         </Grid.Column>
         <Grid.Column>
@@ -90,9 +90,9 @@ function Projects() {
           <p>
             RE is a developing web and mobile environmental app I am currently
             working on as the UX/UI lead and a Front End Developer. Coded in
-            both React and React Native. Individually wireframed and created all
-            digital artwork for web and mobile app versions using Adobe XD and
-            Illustrator.
+            both React and React Native in collaboration with one other
+            developer. Individually wireframed and created all digital artwork
+            for web and mobile app versions using Adobe XD and Illustrator.
           </p>
         </Grid.Column>
         <Grid.Column>
@@ -107,10 +107,11 @@ function Projects() {
             JAG served as my semester project for my Intro to User Experience
             Design class. My partner and I developed an original app idea to
             help college students form genuine connections amidst social and
-            academic anxieties. Created low, mid, and high fidelity wireframes,
-            user journey maps, an information architecture, a style guide, and a
-            storyboard. Conducted multiple user interviews and tests throughout
-            the design process. Utilized Adobe XD and Illustrator.
+            academic anxieties. We created low, mid, and high fidelity
+            wireframes, user journey maps, an information architecture, a style
+            guide, and a storyboard. And conducted multiple user interviews and
+            tests throughout the design process. Utilized Adobe XD and
+            Illustrator.
           </p>
         </Grid.Column>
         <Grid.Column>
@@ -122,10 +123,11 @@ function Projects() {
           </a>
           <h4 style={{ textAlign: "center" }}>Screen Time</h4>
           <p>
-            ScreenTime is an app a partner and I created in 24 hours for an
-            Adobe + Netflix sponsored UX Design Jam. Came up with the concept
-            ourselves then created an animated high fidelity prototype with 30
-            screens using Adobe XD.
+            ScreenTime is a web app geared towards collaborative viewing, which
+            incorporated watch parties, playlists, and polls I created with a
+            creative partner in 24 hours for a Netflix sponsored Adobe UX Design
+            Jam. I came up with the concept then created an animated high
+            fidelity prototype with 30 screens using Adobe XD.
           </p>
         </Grid.Column>
       </Grid>

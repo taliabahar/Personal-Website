@@ -14,13 +14,15 @@ function Skills() {
           <ul>
             <li>JavaScript</li>
             <li>HTML</li>
-            <li>CSS/Sass</li>
+            <li>CSS/SASS</li>
             <li>Java</li>
             <li>Python</li>
           </ul>
           <h3>Technologies</h3>
           <ul>
             <li>React</li>
+            <li>React Native</li>
+            <li>Semantic UI</li>
             <li>GitHub</li>
             <li>Git</li>
             <li>Adobe Illustrator</li>
@@ -33,12 +35,15 @@ function Skills() {
             <li>Maven</li>
             <li>MongoDB</li>
             <li>CLI</li>
+            <li>Postman</li>
+            <li>Terminal Four</li>
+            <li>Expo</li>
           </ul>
         </Grid.Column>
         <Grid.Column>
           <h3>1 - Front End Development</h3>
           <ul>
-            <li>React</li>
+            <li>React + React Native</li>
             <li>Traditonal Web </li>
             <li>API Integration</li>
             <li>ADA Compliance</li>
@@ -52,17 +57,17 @@ function Skills() {
             <li>User Personas</li>
             <li>User Journey Mapping</li>
             <li>Affinity Mapping</li>
-            <li>Data Presentation</li>
             <li>Story Boarding</li>
           </ul>
-          <h3>3 - Design</h3>
+          <h3>3 - Graphic Design</h3>
           <ul>
             <li>User Interface Design</li>
             <li>Interaction Design</li>
-            <li>Website &amp; Digital Design</li>
-            <li>Branding &amp; Logo Design</li>
+            <li>Web Design</li>
+            <li>Mobile Design</li>
+            <li>Digital Design</li>
+            <li>Logo Design</li>
             <li>Illustration</li>
-            <li>Presentation Design</li>
             <li>Drawing</li>
           </ul>
         </Grid.Column>

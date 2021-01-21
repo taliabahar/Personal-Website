@@ -13,25 +13,26 @@ function Education() {
           <div className="educationBlurb">
             <p>Loyola Marymount University</p>
             <p>Bachelor of Science, Computer Science + Graphic Arts Minor</p>
-            <p>August 2017-May 2021 / GPA: 3.51</p>
+            <p>Current GPA: 3.54</p>
+            <p>August 2017 – May 2021</p>
           </div>
         </Grid.Column>
         <Grid.Column id="classes">
           <p>
-            <span>Design Courses:</span> User Experience Design, Computer
-            Graphics, 2D Design, Typography
+            <span>Design Courses:</span> Computer Graphics, Typography, User
+            Experience Design, 2D Design
           </p>
           <p>
-            <span>Technical Courses:</span> Data Structures, Algorithms,
-            Interaction Design, App Development Practicum, Operating Systems,
-            Programming Languages, Intro to Databases, Logic Design, Computer
-            Graphics, Computer Systems Design, Computer Systems Organization,
-            Language Translation and Implementation
+            <span>Technical Courses:</span> Algorithms, App Development
+            Practicum, Computer Graphics, Computer Systems Design, Computer
+            Systems Organization, Data Structures, Interaction Design, Intro to
+            Databases, Language Translation and Implementation, Logic Design,
+            Operating Systems, Programming Languages
           </p>
           <p>
             <span>Affiliations:</span> Association of Computing Machinery
-            (Events Chair), Society of Women Engineers (Member), Han Tao
-            (Member)
+            (Events Chair), Han Tao Cultural Club (Member), Society of Women
+            Engineers (Member),
           </p>
         </Grid.Column>
       </Grid>
