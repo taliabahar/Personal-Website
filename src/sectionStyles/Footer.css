@@ -1,0 +1,39 @@
+/* html,
+body {
+  height: 100%;
+} */
+
+/* .Footer {
+  height: 24px;
+  width: 100%;
+  background-position: 0% 0%;
+  position: fixed;
+  bottom: 0pt;
+  left: 0pt;
+}
+
+.footer_contents {
+  height: 24px;
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+} */
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+
+.Footer {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px; /* height of your footer */
+}
+
+/* footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+} */

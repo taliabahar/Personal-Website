@@ -47,7 +47,7 @@ function Skills() {
             <li>Traditonal Web </li>
             <li>API Integration</li>
             <li>ADA Compliance</li>
-            <li>Google App Engine</li>
+            <li>Firebase</li>
           </ul>
           <h3>2 - User Experience Design </h3>
           <ul>

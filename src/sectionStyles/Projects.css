@@ -14,3 +14,37 @@ h4 {
   font-family: "Rambla", sans-serif !important;
   font-family: "Source Code Pro", monospace !important;
 }
+
+/* h4 {
+  background-image: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+} */
+
+.projectContainer {
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s linear;
+  /* background-image: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%); */
+  /* background: linear-gradient(
+      338.83deg,
+      #699df2 -3.41%,
+      rgba(255, 196, 255, 0) 52.31%
+    ),
+    #a9f9ff; */
+}
+
+.projectContainer:hover {
+  box-shadow: 2px 8px 45px rgba(0, 0, 0, 0.15);
+  transform: translate3D(0, -2px, 0);
+}
+/* .projectContainer:nth-child(2n) h1 {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.projectContainer:nth-child(4n) h1 {
+  background-image: linear-gradient(120deg, #ff9a9e 0%, #fecfef 100%);
+}
+
+.projectContainer:nth-child(5n) h1 {
+  background-image: linear-gradient(120deg, #ffc3a0 0%, #ffafbd 100%);
+} */
