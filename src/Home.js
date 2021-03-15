@@ -105,7 +105,9 @@ function Home() {
                   <div className="projectContainer">
                     <div>
                       <h4 style={{ float: "left" }}>Pet Match</h4>
-                      <p style={{ float: "right", paddingTop: "12px" }}>2020</p>
+                      <p style={{ float: "right", paddingTop: "12px" }}>
+                        Front-End•Project Management
+                      </p>
                     </div>
                     <Image
                       src={PetMatch}
@@ -119,7 +121,8 @@ function Home() {
                         opacity: 0.6,
                       }}
                     >
-                      One line description maybe. One line description maybe.
+                      React web app that helps users easily find adoptable pets
+                      that meet their needs.
                     </p>
                   </div>
                 </Link>
@@ -128,7 +131,9 @@ function Home() {
                 <Link to="/packagetracker">
                   <div className="projectContainer">
                     <h4 style={{ float: "left" }}>Package Tracker</h4>
-                    <p style={{ float: "right", paddingTop: "12px" }}>2020</p>
+                    <p style={{ float: "right", paddingTop: "12px" }}>
+                      Full-Stack•UX/UI
+                    </p>
 
                     <Image src={PackTrack} alt="Package Tracker Screen" />
                     <p
@@ -138,7 +143,8 @@ function Home() {
                         opacity: 0.6,
                       }}
                     >
-                      One line description maybe. One line description maybe.
+                      Single page React web app that consolidates online orders
+                      for more efficient tracking.
                     </p>
                   </div>
                 </Link>
@@ -147,11 +153,13 @@ function Home() {
                 <Link to="/tws">
                   <div className="projectContainer">
                     <h4 style={{ float: "left" }}>TWS</h4>
-                    <p style={{ float: "right", paddingTop: "12px" }}>2020</p>
+                    <p style={{ float: "right", paddingTop: "12px" }}>
+                      Front-End•UX/UI•Illustration
+                    </p>
                     <Image
                       src={TWS}
                       alt="TWS Screen"
-                      style={{ marginBottom: "66px" }}
+                      style={{ marginBottom: "30px" }}
                     />
                     <p
                       style={{
@@ -160,7 +168,9 @@ function Home() {
                         opacity: 0.6,
                       }}
                     >
-                      One line description maybe. One line description maybe.
+                      News-centered React web app MVP created for Mozilla's
+                      Fix-the-Internet Spring 2020 Hackternship to address
+                      misinformation online.
                     </p>
                   </div>
                 </Link>
@@ -169,7 +179,7 @@ function Home() {
                 <div className="projectContainer">
                   <h4 style={{ float: "left" }}>RE</h4>
                   <p style={{ float: "right", paddingTop: "12px" }}>
-                    2020
+                    Front-End•UX/U•Illustration
                   </p>{" "}
                   <a
                     target="newTab"
@@ -183,7 +193,7 @@ function Home() {
                         opacity: 0.6,
                       }}
                     >
-                      One line description maybe. One line description maybe.
+                      Web and mobile environmental focused habit tracker.
                     </p>
                   </a>
                 </div>
@@ -191,7 +201,7 @@ function Home() {
               <Grid.Column>
                 <div className="projectContainer">
                   <h4 style={{ float: "left" }}>JAG</h4>
-                  <p style={{ float: "right", paddingTop: "12px" }}>2020</p>
+                  <p style={{ float: "right", paddingTop: "12px" }}>UX</p>
                   <a
                     target="newTab"
                     href="https://www.behance.net/gallery/92505293/JAG"
@@ -204,7 +214,8 @@ function Home() {
                         opacity: 0.6,
                       }}
                     >
-                      One line description maybe. One line description maybe.
+                      Mobile app concept to help college students form genuine
+                      connections amidst social and academic anxieties.
                     </p>
                   </a>
                 </div>
@@ -212,9 +223,7 @@ function Home() {
               <Grid.Column>
                 <div className="projectContainer">
                   <h4 style={{ float: "left" }}>Screen Time</h4>
-                  <p style={{ float: "right", paddingTop: "12px" }}>
-                    2020
-                  </p>{" "}
+                  <p style={{ float: "right", paddingTop: "12px" }}>UX</p>{" "}
                   <a
                     target="newTab"
                     href="https://www.behance.net/gallery/102711929/ScreenTime-Adobe-Creative-Jam-x-Netflix"
@@ -227,7 +236,9 @@ function Home() {
                         opacity: 0.6,
                       }}
                     >
-                      One line description maybe. One line description maybe.
+                      A web app experience geared towards collaborative viewing
+                      conceptualized for a Netflix sponsored Adobe UX Design
+                      Jam.
                     </p>
                   </a>
                 </div>
