@@ -14,21 +14,43 @@ import TWS from "./TWS";
 import Footer from "./Footer";
 import Home from "./Home";
 
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Nav></Nav>
-      <Home></Home>
-      {/* <About></About> */}
-      {/* <Projects></Projects> */}
-      {/* <AboutMe></AboutMe> */}
-      {/* <Projects2> </Projects2> */}
-      {/* <PetMatch></PetMatch> */}
-      {/* <PackageTracker></PackageTracker> */}
-      {/* <TWS></TWS> */}
-      {/* <Footer></Footer> */}
+      <Router>
+        <Nav></Nav>
+        <div>
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route exact path="/about">
+              <AboutMe />
+            </Route>
+            <Route exact path="/petmatch">
+              <PetMatch />
+            </Route>
+            <Route exact path="/packagetracker">
+              <PackageTracker />
+            </Route>
+            <Route exact path="/tws">
+              <TWS />
+            </Route>
+          </Switch>
+        </div>
+        {/* <Home></Home> */}
+        {/* <About></About> */}
+        {/* <Projects></Projects> */}
+        {/* <AboutMe></AboutMe> */}
+        {/* <Projects2> </Projects2> */}
+        {/* <PetMatch></PetMatch> */}
+        {/* <PackageTracker></PackageTracker> */}
+        {/* <TWS></TWS> */}
+        {/* <p className="footer">© 2021 Talia Bahar</p> */}
+        <Footer></Footer>
+      </Router>
     </div>
   );
 }

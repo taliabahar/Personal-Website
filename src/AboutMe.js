@@ -175,7 +175,7 @@ function AboutMe() {
           </Grid.Column>
         </Grid.Row>
       </Grid>
-      <footer>© 2021 Talia Bahar</footer>
+      {/* <footer>© 2021 Talia Bahar</footer> */}
     </div>
   );
 }

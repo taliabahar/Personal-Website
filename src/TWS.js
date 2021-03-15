@@ -95,17 +95,16 @@ function TWS() {
           <Grid.Column width={8}>
             <h3 style={{ textAlign: "center" }}>The Proposal</h3>
             <p>
-              A web app that consolidates shipments so users can easily and more
-              efficiently track their packages. Instead of having to dig through
-              emails and constantly find the tracking status of all online
-              orders made the user can provide my web app with the carrier and
-              tracking number related to each of their orders and track
-              everything at once and on one page. The delivery status and ETA of
-              the user’s package will also be accompanied by a map to display
-              the package's current location. Users will also be able to assign
-              a name to their package so that they know which package is which
-              on the tracking page. With this tool, users can see when all their
-              packages will arrive at their destination in one place.
+              A news centered web app that removes avenues for implicit bias to
+              affect the reader's perception of a news topic. Upon choosing a
+              topic, they would be served a chain of articles that have all
+              branding, titles, and images stripped so as to not influence their
+              POV before actually reading the article. At the end of every
+              article readers are asked to vote on whether or not they liked the
+              article before the source of the article is revealed. After
+              reading several articles about one topic through this format we
+              hope readers would truly be able to get the whole story and check
+              their own biases.
             </p>{" "}
           </Grid.Column>
           <Grid.Column width={8}>
@@ -168,7 +167,16 @@ function TWS() {
 
             <p>
               <span>My Role</span>
-              <br></br>
+              <br></br> I served as the User Experience(UX)/User Interface(UI)
+              Design lead on the project as well as a Front-End developer. As
+              the UX lead I led the first phase of the project conducting user
+              surverys, research on existing news applications, and creating low
+              and mid fi wireframes individually. I also crafted our user
+              personas, ran user tests once we had a working product, and
+              created all artwork for the app. Over the course of the project I
+              strengthened my React programming and UX skills, gained experience
+              working with a team on a large web app, and received product
+              design mentorship from Mozilla professionals.
             </p>
 
             <p>
@@ -235,7 +243,7 @@ function TWS() {
           ></img>
         </Grid.Row>
       </Grid>
-      <footer>© 2021 Talia Bahar</footer>
+      {/* <footer>© 2021 Talia Bahar</footer> */}
     </div>
   );
 }
