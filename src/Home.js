@@ -89,6 +89,7 @@ function Home() {
             </div>
           </Grid.Column>
         </Grid>
+        {/* <a id="projects"></a> */}
         <div className="projects">
           <nav>
             <Grid
@@ -233,7 +234,7 @@ function Home() {
               </Grid.Column>
             </Grid>
           </nav>
-          {/* <footer>© 2021 Talia Bahar</footer> */}
+          <footer>© 2021 Talia Bahar</footer>
         </div>
       </div>
     </div>

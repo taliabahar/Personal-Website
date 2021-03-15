@@ -2,20 +2,16 @@ import React, { Component } from "react";
 import { Menu } from "semantic-ui-react";
 import icon from "./images/TB.png";
 import Resume from "./documents/Resume-TaliaBahar.pdf";
-import { BrowserRouter as Link } from "react-router-dom";
-// import Home from "./Home.js";
-// import About from "./AboutMe.js";
+import { Link } from "react-router-dom";
 
 export default class MenuExampleSecondary extends Component {
-  state = { activeItem: "Home" };
-
+  state = { activeItem: "home" };
   handleItemClick = (e, { name }) => this.setState({ activeItem: name });
 
   render() {
     const { activeItem } = this.state;
 
     return (
-      // <Router>
       <Menu
         fixed="top"
         secondary
@@ -39,7 +35,7 @@ export default class MenuExampleSecondary extends Component {
           as={Link}
           to="/"
           style={{ fontWeight: "700" }}
-          name="Home"
+          name="home"
           active={activeItem === "home"}
           onClick={this.handleItemClick}
         ></Menu.Item>
@@ -47,8 +43,8 @@ export default class MenuExampleSecondary extends Component {
           as={Link}
           to="/about"
           style={{ fontWeight: "700" }}
-          name="About"
-          active={activeItem === "education"}
+          name="about"
+          active={activeItem === "about"}
           onClick={this.handleItemClick}
         />
         {/* <Menu.Item
@@ -56,7 +52,7 @@ export default class MenuExampleSecondary extends Component {
           name="projects"
           active={activeItem === "projects"}
           onClick={this.handleItemClick}
-          href="#education"
+          href="#projects"
         /> */}
         <Menu.Menu position="right">
           <Menu.Item

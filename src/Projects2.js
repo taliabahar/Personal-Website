@@ -19,6 +19,7 @@ function Projects2() {
         found on my <a href="https://github.com/taliabahar">GitHub</a> and
         <a href="https://www.behance.net/taliabahar"> Behance</a>.
       </p> */}
+      <a id="projects"></a>
 
       <Grid
         container
@@ -122,7 +123,7 @@ function Projects2() {
           </div>
         </Grid.Column>
       </Grid>
-      {/* <footer>© 2021 Talia Bahar</footer> */}
+      <footer>© 2021 Talia Bahar</footer>
     </div>
   );
 }
