@@ -13,7 +13,7 @@ function Education() {
           <div className="educationBlurb">
             <p>Loyola Marymount University</p>
             <p>Bachelor of Science, Computer Science + Graphic Arts Minor</p>
-            <p>Current GPA: 3.54</p>
+            <p>Current GPA: 3.56</p>
             <p>August 2017 – May 2021</p>
           </div>
         </Grid.Column>

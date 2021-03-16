@@ -1,7 +1,21 @@
+.about {
+  margin-bottom: 60px;
+}
+
+#profilePic {
+  width: 60%;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
+.introText {
+  margin-top: 5%;
+}
+
 h1 {
   grid-row: 1;
   grid-column: 1;
-  top: 50px;
+  top: 560px;
   width: 100%;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
@@ -11,11 +25,11 @@ h1 {
   animation-fill-mode: both;
   -webkit-animation-delay: 0.6s;
   animation-delay: 0.5s;
-  font-size: 50px !important;
+  font-size: 55px !important;
   text-align: left;
   font-family: "Rambla", sans-serif !important;
+  padding: 50px 50px 0 50px !important;
   color: white;
-  padding: 50px !important;
   text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
     0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
     0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
@@ -24,20 +38,43 @@ h1 {
   letter-spacing: 5px;
   font-family: "Bungee Shade", cursive !important;
   margin-top: 45px !important;
+  /* font-family: "Elsie Swash Caps", cursive !important; */
+}
+
+.subTitle {
+  font-size: 50px !important;
+  padding-left: 50px;
+
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.5s;
 }
 
 #aboutBlurb {
   margin: 15% 10% 0 0;
-  width: 80%;
+  /* width: 80%; */
   font-size: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .aboutBtns {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @-webkit-keyframes fadeIn {
@@ -89,8 +126,8 @@ h1 {
 }
 
 .glass-btn {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   background-color: #fafafa;
   display: inline-flex;
   align-items: center;

@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import { Menu } from "semantic-ui-react";
 import icon from "./images/TB.png";
 import Resume from "./documents/Resume-TaliaBahar.pdf";
+import { Link } from "react-router-dom";
 
 export default class MenuExampleSecondary extends Component {
   state = { activeItem: "home" };
-
   handleItemClick = (e, { name }) => this.setState({ activeItem: name });
 
   render() {
@@ -32,37 +32,38 @@ export default class MenuExampleSecondary extends Component {
           }}
         ></img>
         <Menu.Item
+          as={Link}
+          to="/"
+          style={{ fontWeight: "700" }}
           name="home"
           active={activeItem === "home"}
           onClick={this.handleItemClick}
-          href="#about"
         ></Menu.Item>
         <Menu.Item
-          name="education"
-          active={activeItem === "education"}
+          as={Link}
+          to="/about"
+          style={{ fontWeight: "700" }}
+          name="about"
+          active={activeItem === "about"}
           onClick={this.handleItemClick}
-          href="#education"
         />
-        <Menu.Item
-          name="skills"
-          active={activeItem === "skills"}
-          onClick={this.handleItemClick}
-          href="#skills"
-        />
-        <Menu.Item
+        {/* <Menu.Item
+          style={{ fontWeight: "700" }}
           name="projects"
           active={activeItem === "projects"}
           onClick={this.handleItemClick}
           href="#projects"
-        />
+        /> */}
         <Menu.Menu position="right">
           <Menu.Item
+            style={{ fontWeight: "700" }}
             name="resume"
             onClick={this.handleItemClick}
             href={Resume}
             target="newTab"
           />
           <Menu.Item
+            style={{ fontWeight: "700" }}
             name="contact"
             onClick={this.handleItemClick}
             href="mailto:tbahar@lion.lmu.edu.com"
