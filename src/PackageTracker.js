@@ -126,36 +126,35 @@ function PackageTracker() {
             <p>
               <span>My Role</span>
               <br></br>I individually wireframed, developed, and tested this
-              single-page React Hooks package tracker web app in order to
-              satisfy Nielson’s five usability metrics. I started off by
-              researching usability guidelines to inform my design decisions and
-              using Postman and Curl to test the API endpoints I would be
-              utilzing. I then designed all the app artwork myseelf and
-              integrated both mock data and real data from two different APIs
-              into the app.
+              single-page React Hooks package tracker web app to satisfy
+              Nielson’s 5 usability metrics. I started by researching usability
+              guidelines to inform my design decisions and using Postman and
+              Curl to test the API endpoints I would be utilizing. I then
+              designed all the app artwork myself and integrated both mock data
+              and real data from two different APIs into the app.
             </p>
 
             <p>
               <span>Design</span>
               <br></br>
               <p>
-                My package tracking web app is a single page app, with only
+                My package tracking web app is a single-page app, with only
                 three input fields, three buttons, designed to not overwhelm the
-                user, to prevent errors, and to be visually satisfying. Users
-                would not have a hard time tracking packages through my app
-                because there are only 3 main functionalities (track package,
-                add package, and remove package) presented to them that I have
-                designed to be intuitive.{" "}
+                user, prevent errors, and be visually satisfying. Users would
+                not have a hard time tracking packages through my app because
+                there are only 3 main functionalities (track package, add
+                package, and remove package) presented to them that I have
+                designed to be intuitive.
               </p>
               <p>
                 {" "}
                 Since users only are required to manipulate three fields that
-                means there is less room for user-caused error ands it should be
+                means there is less room for user-caused error and it should be
                 easy for users to learn and remember the process of tracking
-                packages on my web app. By adding the carriers entry as a
+                packages on my web app. By adding the entry of the carrier as a
                 dropdown menu, instead of a text field, it prevents a lot of
                 errors that could be caused by spelling inconsistencies. For
-                example if users type usps vs USPS. Having the dropdown also
+                example, if users type usps vs USPS. Having the dropdown also
                 allows a user to quickly determine whether or not their carrier
                 can be accessed through my web app. I also added to the site’s
                 efficiency by having the user assign a name to their package.
@@ -171,14 +170,14 @@ function PackageTracker() {
                 which are two things commonly associated with removal and prompt
                 caution. Finally, the add package button has a green plus on it.
                 I also incorporated a red error message that is prompted when a
-                user attempts to track a non existent package.
+                user attempts to track a non-existent package.
               </p>
               <p>
                 Aside from its usability, my web app's consistent and organized
                 design adds to my user's subjective satisfaction. I kept the
                 color scheme consistent; I used mostly the same shades of blues,
                 greys, and greens throughout. My centered layout doesn’t look
-                unbalanced and as users add more packages it will never look to
+                unbalanced and as users add more packages it will never look too
                 cluttered and thus never overwhelm the user visually.
               </p>
               <p>
@@ -192,7 +191,7 @@ function PackageTracker() {
                 satisfaction. I placed interactive controls in the center and
                 placed the add package button in the upper-left corner since it
                 is an element that initiates a task. Moreover, I included an
-                animated color coded tracking status indicator in the modal
+                animated color-coded tracking status indicator in the modal
                 which further added to the aesthetic and efficiency of the web
                 app.
               </p>
@@ -227,9 +226,9 @@ function PackageTracker() {
               again so I reverted my code base to the last working commit and
               went through all the code and added console logs to no avail. I
               then checked the network tab in the Chrome Developer tools and saw
-              the API was sending a status of 200 again so had to change the 201
-              back to 200. While these issues were out of my comfort zone they
-              helped me become better at debugging and learn more about
+              the API was sending a status of 200 again so I had to change the
+              201 back to 200. While these issues were out of my comfort zone
+              they helped me become better at debugging and learn more about
               networks.
             </p>
           </Grid.Column>

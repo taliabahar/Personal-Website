@@ -18,3 +18,14 @@
   width: 60%;
   border-radius: 100%;
 }
+
+h2 {
+  color: white;
+  text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
+    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
+    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
+    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
+    0 0 4px black;
+  letter-spacing: 5px;
+  font-family: "Bungee Shade", cursive !important;
+}

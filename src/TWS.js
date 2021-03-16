@@ -48,7 +48,9 @@ function TWS() {
           ></img>
         </a>
         <h2 id="title">The Whole Story</h2>
-        <p>UX Designer/Front-End Developer • React Web App • 2020 </p>
+        <p>
+          UX Designer/Front-End Developer/Illustrator • React Web App • 2020{" "}
+        </p>
         <p>
           Collaborated on with
           <a href="https://github.com/mb0606"> Marco Berardini</a> and{" "}
@@ -148,32 +150,32 @@ function TWS() {
               the home page or search for their own.
             </p>
             <p>
-              Unlike other sites that redirect users to a list of flashy
-              articles titles designed to grab their attention, The Whole
-              Story's search leads to a list of subtopics, where users can
-              choose any topic that interests them free of any external
-              influences. Users are presented with a chain of articles to read
-              sorrounding the chosen topic from varying sources on the political
-              party spectrum to help them grasp the whole story. Articles are
-              preseented with their title, images, and branding removed to bring
-              the focus back to the written word.
+              Unlike other sites that redirect users to a list of flashy article
+              titles designed to grab their attention, The Whole Story's search
+              leads to a list of subtopics, where users can choose any topic
+              that interests them free of any external influences. Users are
+              presented with a chain of articles to read surrounding the chosen
+              topic from varying sources on the political party spectrum to help
+              them grasp the whole story. Articles are presented with their
+              title, images, and branding removed to bring the focus back to the
+              written word.
             </p>
             <p>
-              Upon finishing reading an article users are asked to up or down
-              vote what they have read. Only then will the source be revealed.
-              Begging the question, does the user's reaction to the article
-              match the news outlet?
+              Upon finishing reading an article users are asked to up or
+              downvote what they have read. Only then will the source be
+              revealed. Begging the question, does the user's reaction to the
+              article match the news outlet?
             </p>
 
             <p>
               <span>My Role</span>
               <br></br> I served as the User Experience(UX)/User Interface(UI)
               Design lead on the project as well as a Front-End developer. As
-              the UX lead I led the first phase of the project conducting user
-              surverys, research on existing news applications, and creating low
-              and mid fi wireframes individually. I also crafted our user
+              the UX lead, I led the first phase of the project conducting user
+              surveys, research on existing news applications, and creating low
+              and mid-fi wireframes individually. I also crafted our user
               personas, ran user tests once we had a working product, and
-              created all artwork for the app. Over the course of the project I
+              created all artwork for the app. Through this project I
               strengthened my React programming and UX skills, gained experience
               working with a team on a large web app, and received product
               design mentorship from Mozilla professionals.
@@ -182,14 +184,35 @@ function TWS() {
             <p>
               <span>Design</span>
               <br></br>
-              <p></p>
+              <p>
+                Intending to bring back the focus to the text and remove imagery
+                we wanted The Whole Story site to be clean and not busy. The
+                site needed to be neutral to show we are not associated with any
+                political party, but since our demographic was younger people
+                still needed to have elements of intrigue. I chose to use a teal
+                shade as our pop of color as it is not a color associated with
+                any political parties. After conducting mid-fi wireframe
+                surveys, I created the footer graphic to bring life to the site
+                and as a way to brand The Whole Story. The set of 4 promotional
+                images that appear throughout the site serve the same purpose.
+                Pages were also optimized for readability with the use of grids
+                and additional information was put into modals.
+              </p>
             </p>
             <img src={twsLowFi}></img>
             <img src={twsHiFi}></img>
-            <p>something something</p>
 
             <p>
               <span>Issues</span>
+              <p>
+                At the beginning of the project, we struggled with figuring out
+                how to gamify our app to attract users. We ultimately came up
+                with the idea of giving users medals as they read a chain of
+                articles. If they read 2/7 articles, for example, they would be
+                a bronze medal and be somewhat familiar with the topic and if
+                they read 7/7 articles they would be a gold medal and be an
+                expert on the topic.
+              </p>
               <br></br>
             </p>
           </Grid.Column>

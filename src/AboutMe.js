@@ -16,7 +16,13 @@ function AboutMe() {
             <p className="aboutBlurb">
               I am a Los Angeles, CA native graduating from Loyola Marymount
               University with a Bachelor's in Computer Science and a minor in
-              Graphic Arts.
+              Graphic Arts. My background is in web development with a focus on
+              front-end, React, API integration, accessibility, and graphic
+              design. I also have a strong interest in transitioning my
+              technical and design skills into the UX/UI world. I am very
+              interested in working on projects where I can combine both my
+              technical and design skills to have a positive impact on peoples'
+              daily lives.
             </p>
             <p className="aboutBlurb">
               Ever since elementary school art has been one of my passions. I
@@ -48,14 +54,6 @@ function AboutMe() {
               projects to build my programming skills, attending design jams to
               build my user experience skills, and creating fun illustrations
               and logos to express myself creatively.
-            </p>
-            <p className="aboutBlurb">
-              My background is in web development with a focus on front-end,
-              React, API integration, accessibility, and graphic design. I also
-              have a strong interest in transitioning my technical and design
-              skills into the UX/UI world. I am very interested in roles where I
-              can combine both my technical and design skills to have a positive
-              impact on peoples' daily lives.
             </p>
           </Grid.Column>
           {/* <Grid.Column>
@@ -149,16 +147,6 @@ function AboutMe() {
             </ul>
           </Grid.Column>
           <Grid.Column>
-            <h3>Adobe</h3>
-            <ul>
-              <li>Illustrator</li>
-              <li>InDesign</li>
-              <li>XD</li>
-              <li>Photoshop</li>
-              <li>Acrobat</li>
-            </ul>
-          </Grid.Column>
-          <Grid.Column>
             <h3>Technologies</h3>
             <ul>
               <li>CLI</li>
@@ -171,6 +159,16 @@ function AboutMe() {
               <li>MongoDB</li>
               <li>Firebase</li>
               <li>SiteImprove</li>
+            </ul>
+          </Grid.Column>
+          <Grid.Column>
+            <h3>Adobe</h3>
+            <ul>
+              <li>Illustrator</li>
+              <li>InDesign</li>
+              <li>XD</li>
+              <li>Photoshop</li>
+              <li>Acrobat</li>
             </ul>
           </Grid.Column>
         </Grid.Row>

@@ -16,7 +16,7 @@ function PetMatch() {
           ></img>
         </a>
         <h2 id="title">PetMatch</h2>
-        <p>Project Manager / Developer • React Web App • 2020 </p>
+        <p>Project Manager / Web Developer • React Web App • 2020 </p>
         <p>
           Collaborated on with
           <a href="https://github.com/JigarSwam"> Jigar Swaminarayan</a>,{" "}
@@ -62,7 +62,7 @@ function PetMatch() {
             <h3 style={{ textAlign: "center" }}>User Benefits</h3>
             <ul>
               <li>
-                Adopting from a shelter is much more cost effective than
+                Adopting from a shelter is much more cost-effective than
                 purchasing a dog from a breeder
               </li>
               <li>
@@ -98,24 +98,24 @@ function PetMatch() {
             <p>
               <span>How It Works</span>
               <br></br> Users take a quiz where they can specify their pet wants
-              and needs before being a shown a gallery of their potential pet
-              matches. PetMatch simplifies the pet matching process by
-              narrowinng down search results based on location, type of animal,
-              size, and if the desired pet is good with kids and other animals.
-              Aside from the quiz, PetMatch also provides users with information
-              on shelters and a resources page to help them take care of their
+              and needs before being shown a gallery of their potential pet
+              matches. PetMatch simplifies the pet matching process by narrowing
+              down search results based on location, type of animal, size, and
+              if the desired pet is good with kids and other animals. Aside from
+              the quiz, PetMatch also provides users with information on
+              shelters and a resources page to help them take care of their
               newly adopted pets.
             </p>
 
             <p>
               <span>My Role</span>
-              <br></br>I came up with concept and served as Project Manager
+              <br></br>I came up with the concept and served as Project Manager
               intending to promote the adoption of shelter animals to help save
               animals who are being put down due to shelters closing down and
               help mitigate the anxiety and boredom quarantining has caused. I
-              delegated roles to team mates and personally worked on the home
-              and quiz pages. I also spearheaded the site's visual and
-              interaction design.
+              delegated roles to teammates and personally worked on the home and
+              quiz pages. I also spearheaded the site's visual and interaction
+              design.
             </p>
 
             <p>
@@ -123,7 +123,7 @@ function PetMatch() {
               <br></br>
               With the goal in mind to make the process of finding a pet to
               adopt as easy as possible, I wanted the site design to be clean
-              and intutive. We kept colors and pages to a minimum and employed
+              and intuitive. We kept colors and pages to a minimum and employed
               animal graphics to set the tone of the site.
             </p>
 
@@ -131,13 +131,14 @@ function PetMatch() {
               <span>Issues</span>
               <br></br>
               Integrating the Petfinder API was more difficult than expected.
-              Unlike APIs I was used to working with the Petfiner API constantly
-              generated a new token that had to be fed into the function call
-              Each time a token was generated, we needed to log that a token had
-              been taken but not log the actual token. Token had to be stashed
-              in memory. Working with my teammate and our professor we were able
-              to succesfully integrate the Petfinder API which helped me become
-              more comfortable with API integration as a whole.
+              Unlike APIs I was used to working with the Petfinder API
+              constantly generated a new token that had to be fed into the
+              function call Each time a token was generated, we needed to log
+              that a token had been taken but not log the actual token. Token
+              had to be stashed in memory. Working with my teammate and our
+              professor we were able to successfully integrate the Petfinder API
+              which helped me become more comfortable with API integration as a
+              whole.
             </p>
           </Grid.Column>
         </Grid.Row>
