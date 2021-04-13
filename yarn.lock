@@ -2411,7 +2411,7 @@
   "resolved" "https://registry.npmjs.org/bn.js/-/bn.js-4.11.9.tgz"
   "version" "4.11.9"
 
-"bn.js@^4.4.0":
+"bn.js@^4.11.9":
   "integrity" "sha512-E6QoYqCKZfgatHTdHzs1RRKP7ip4vvm+EyRUeE2RF0NblwVvb0p6jSVeNTOFxPn26QXN2o6SMfNxKp6kU8zQaw=="
   "resolved" "https://registry.npmjs.org/bn.js/-/bn.js-4.11.9.tgz"
   "version" "4.11.9"
@@ -2485,7 +2485,7 @@
   dependencies:
     "fill-range" "^7.0.1"
 
-"brorand@^1.0.1":
+"brorand@^1.0.1", "brorand@^1.1.0":
   "integrity" "sha1-EsJe/kCkXjwyPrhnWgoM5XsiNx8="
   "resolved" "https://registry.npmjs.org/brorand/-/brorand-1.1.0.tgz"
   "version" "1.1.0"
@@ -3979,17 +3979,17 @@
   "version" "1.3.533"
 
 "elliptic@^6.5.3":
-  "integrity" "sha512-IMqzv5wNQf+E6aHeIqATs0tOLeOTwj1QKbRcS3jBbYkl5oLAserA8yJTT7/VyHUYG91PRmPyeQDObKLPpeS4dw=="
-  "resolved" "https://registry.npmjs.org/elliptic/-/elliptic-6.5.3.tgz"
-  "version" "6.5.3"
+  "integrity" "sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ=="
+  "resolved" "https://registry.npmjs.org/elliptic/-/elliptic-6.5.4.tgz"
+  "version" "6.5.4"
   dependencies:
-    "bn.js" "^4.4.0"
-    "brorand" "^1.0.1"
+    "bn.js" "^4.11.9"
+    "brorand" "^1.1.0"
     "hash.js" "^1.0.0"
-    "hmac-drbg" "^1.0.0"
-    "inherits" "^2.0.1"
-    "minimalistic-assert" "^1.0.0"
-    "minimalistic-crypto-utils" "^1.0.0"
+    "hmac-drbg" "^1.0.1"
+    "inherits" "^2.0.4"
+    "minimalistic-assert" "^1.0.1"
+    "minimalistic-crypto-utils" "^1.0.1"
 
 "email-addresses@^3.0.1":
   "integrity" "sha512-k0/r7GrWVL32kZlGwfPNgB2Y/mMXVTq/decgLczm/j34whdaspNrZO8CnXPf1laaHxI6ptUlsnAxN+UAPw+fzg=="
@@ -5247,7 +5247,7 @@
     "tiny-warning" "^1.0.0"
     "value-equal" "^1.0.1"
 
-"hmac-drbg@^1.0.0":
+"hmac-drbg@^1.0.1":
   "integrity" "sha1-0nRXAQJabHdabFRXk+1QL8DGSaE="
   "resolved" "https://registry.npmjs.org/hmac-drbg/-/hmac-drbg-1.0.1.tgz"
   "version" "1.0.1"
@@ -5567,9 +5567,9 @@
   "version" "2.0.3"
 
 "ini@^1.3.5":
-  "integrity" "sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw=="
-  "resolved" "https://registry.npmjs.org/ini/-/ini-1.3.5.tgz"
-  "version" "1.3.5"
+  "integrity" "sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew=="
+  "resolved" "https://registry.npmjs.org/ini/-/ini-1.3.8.tgz"
+  "version" "1.3.8"
 
 "inquirer@^7.0.0":
   "integrity" "sha512-JG3eIAj5V9CwcGvuOmoo6LB9kbAYT8HXffUl6memuszlwDC/qvFAJw49XJ5NROSFNPxp3iQg1GqkFhaY/CR0IA=="
@@ -7088,7 +7088,7 @@
   "resolved" "https://registry.npmjs.org/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz"
   "version" "1.0.1"
 
-"minimalistic-crypto-utils@^1.0.0", "minimalistic-crypto-utils@^1.0.1":
+"minimalistic-crypto-utils@^1.0.1":
   "integrity" "sha1-9sAMHAsIIkblxNmd+4x8CDsrWCo="
   "resolved" "https://registry.npmjs.org/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz"
   "version" "1.0.1"
@@ -7248,10 +7248,10 @@
   dependencies:
     "lower-case" "^1.1.1"
 
-"node-forge@0.9.0":
-  "integrity" "sha512-7ASaDa3pD+lJ3WvXFsxekJQelBKRpne+GOVbLbtHYdd7pFspyeuJHnWfLplGf3SwKGbfs/aYl5V/JCIaHVUKKQ=="
-  "resolved" "https://registry.npmjs.org/node-forge/-/node-forge-0.9.0.tgz"
-  "version" "0.9.0"
+"node-forge@^0.10.0":
+  "integrity" "sha512-PPmu8eEeG9saEUvI97fm4OYxXVB6bFvyNTyiUOBichBpFG8A1Ljw3bY62+5oOjDEMHRnd0Y7HQ+x7uzxOzC6JA=="
+  "resolved" "https://registry.npmjs.org/node-forge/-/node-forge-0.10.0.tgz"
+  "version" "0.10.0"
 
 "node-gyp@^3.8.0":
   "integrity" "sha512-3g8lYefrRRzvGeSowdJKAKyks8oUpLEd/DyPV4eMhVlhJ0aNaZqIrNUIPuEWWTAoPqyFkfGrM67MC69baqn6vA=="
@@ -9694,11 +9694,11 @@
   "version" "2.0.0"
 
 "selfsigned@^1.9.1":
-  "integrity" "sha512-8M3wBCzeWIJnQfl43IKwOmC4H/RAp50S8DF60znzjW5GVqTcSe2vWclt7hmYVPkKPlHWOu5EaWOMZ2Y6W8ZXTA=="
-  "resolved" "https://registry.npmjs.org/selfsigned/-/selfsigned-1.10.7.tgz"
-  "version" "1.10.7"
+  "integrity" "sha512-2P4PtieJeEwVgTU9QEcwIRDQ/mXJLX8/+I3ur+Pg16nS8oNbrGxEso9NyYWy8NAmXiNl4dlAp5MwoNeCWzON4w=="
+  "resolved" "https://registry.npmjs.org/selfsigned/-/selfsigned-1.10.8.tgz"
+  "version" "1.10.8"
   dependencies:
-    "node-forge" "0.9.0"
+    "node-forge" "^0.10.0"
 
 "semantic-ui-css@^2.4.1":
   "integrity" "sha512-Pkp0p9oWOxlH0kODx7qFpIRYpK1T4WJOO4lNnpNPOoWKCrYsfHqYSKgk5fHfQtnWnsAKy7nLJMW02bgDWWFZFg=="
@@ -11446,9 +11446,9 @@
   "version" "4.0.2"
 
 "y18n@^3.2.1 || ^4.0.0", "y18n@^4.0.0":
-  "integrity" "sha512-r9S/ZyXu/Xu9q1tYlpsLIsa3EeLXXk0VwlxqTcFRfg9EhMW+17kbt9G0NrgCmhGb5vT2hyhJZLfDGx+7+5Uj/w=="
-  "resolved" "https://registry.npmjs.org/y18n/-/y18n-4.0.0.tgz"
-  "version" "4.0.0"
+  "integrity" "sha512-JKhqTOwSrqNA1NY5lSztJ1GrBiUodLMmIZuLiDaMRJ+itFd+ABVE8XBjOvIWL+rSqNDC74LCSFmlb/U4UZ4hJQ=="
+  "resolved" "https://registry.npmjs.org/y18n/-/y18n-4.0.3.tgz"
+  "version" "4.0.3"
 
 "yallist@^2.1.2":
   "integrity" "sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI="

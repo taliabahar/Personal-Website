@@ -10,8 +10,9 @@
 }
 
 .aboutBlurb {
-  /* text-indent: 16px; */
+  text-indent: 20px;
   /* font-size: 18px; */
+  padding: 0 180px;
 }
 
 #profilePic {
