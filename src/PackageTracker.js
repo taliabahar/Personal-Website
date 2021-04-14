@@ -44,7 +44,7 @@ function PackageTracker() {
           >
             <h3>The Problem</h3>
             <p>
-              With the rise of online shopping, it can be diificult to keep
+              With the rise of online shopping, it can be difficult to keep
               track of shipments through emails.
             </p>{" "}
           </Grid.Column>
