@@ -39,3 +39,12 @@
 .check {
   padding: 0 90px !important;
 }
+
+p,
+ul {
+  font-size: 19px;
+}
+
+span {
+  font-size: 19px !important;
+}

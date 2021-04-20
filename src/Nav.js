@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Menu } from "semantic-ui-react";
 import icon from "./images/TB.png";
-import Resume from "./documents/Resume-TaliaBahar.pdf";
+import Resume from "./documents/TaliaBahar-OnlineResume.pdf";
 import { Link } from "react-router-dom";
 
 export default class MenuExampleSecondary extends Component {
@@ -33,7 +33,7 @@ export default class MenuExampleSecondary extends Component {
         ></img>
         <Menu.Item
           as={Link}
-          to="/"
+          to="/Personal-Website/"
           style={{ fontWeight: "700" }}
           name="home"
           active={activeItem === "home"}
@@ -47,13 +47,6 @@ export default class MenuExampleSecondary extends Component {
           active={activeItem === "about"}
           onClick={this.handleItemClick}
         />
-        {/* <Menu.Item
-          style={{ fontWeight: "700" }}
-          name="projects"
-          active={activeItem === "projects"}
-          onClick={this.handleItemClick}
-          href="#projects"
-        /> */}
         <Menu.Menu position="right">
           <Menu.Item
             style={{ fontWeight: "700" }}

@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Nav from "./Nav";
-import Resume from "./documents/Resume-TaliaBahar.pdf";
+import Resume from "./documents/TaliaBahar-OnlineResume.pdf";
 import DesignResume from "./documents/TaliaBahar_DesignResume.pdf";
 import profilePic from "./images/talia.jpeg";
 import { Grid, Image } from "semantic-ui-react";
@@ -11,12 +11,9 @@ import RE from "./images/REScreen.png";
 import ScreenTime from "./images/ScreenTimeScreen.png";
 import JAG from "./images/JAGScreen.png";
 import PackTrack from "./images/PackTrackScreen.png";
-
 import { Link } from "react-router-dom";
 
 import "./App.css";
-// import "./sectionStyles/Projects2.css";
-// import "./sectionStyles/About.css";
 
 import "./sectionStyles/Home.css";
 
@@ -92,28 +89,23 @@ function Home() {
         {/* <a id="projects"></a> */}
         <div className="projects">
           <nav>
-            <Grid
-              container
-              columns={2}
-              stackable
-              // doubling
-              // relaxed
-              style={{ display: "inline" }}
-            >
+            <Grid container columns={2} stackable style={{ display: "inline" }}>
               <Grid.Column>
                 <Link to="/petmatch">
                   <div className="projectContainer">
                     <div>
                       <h4 style={{ float: "left" }}>Pet Match</h4>
-                      <p style={{ float: "right", paddingTop: "12px" }}>
+                      <p
+                        style={{
+                          float: "right",
+                          paddingTop: "12px",
+                          fontSize: "16px",
+                        }}
+                      >
                         Front-End•Project Management
                       </p>
                     </div>
-                    <Image
-                      src={PetMatch}
-                      alt="Pet Match Screen"
-                      // style={{ width: "20px" }}
-                    />
+                    <Image src={PetMatch} alt="Pet Match Screen" />
                     <p
                       style={{
                         textAlign: "center",
@@ -131,7 +123,13 @@ function Home() {
                 <Link to="/packagetracker">
                   <div className="projectContainer">
                     <h4 style={{ float: "left" }}>Package Tracker</h4>
-                    <p style={{ float: "right", paddingTop: "12px" }}>
+                    <p
+                      style={{
+                        float: "right",
+                        paddingTop: "12px",
+                        fontSize: "16px",
+                      }}
+                    >
                       Full-Stack•UX/UI
                     </p>
 
@@ -153,13 +151,19 @@ function Home() {
                 <Link to="/tws">
                   <div className="projectContainer">
                     <h4 style={{ float: "left" }}>TWS</h4>
-                    <p style={{ float: "right", paddingTop: "12px" }}>
+                    <p
+                      style={{
+                        float: "right",
+                        paddingTop: "12px",
+                        fontSize: "16px",
+                      }}
+                    >
                       Front-End•UX/UI•Illustration
                     </p>
                     <Image
                       src={TWS}
                       alt="TWS Screen"
-                      style={{ marginBottom: "30px" }}
+                      style={{ marginBottom: "190px" }}
                     />
                     <p
                       style={{
@@ -176,15 +180,18 @@ function Home() {
                 </Link>
               </Grid.Column>
               <Grid.Column>
-                <div className="projectContainer">
-                  <h4 style={{ float: "left" }}>RE</h4>
-                  <p style={{ float: "right", paddingTop: "12px" }}>
-                    Front-End•UX/U•Illustration
-                  </p>{" "}
-                  <a
-                    target="newTab"
-                    href="https://www.behance.net/gallery/101712551/RE-Web-App"
-                  >
+                <Link to="/re">
+                  <div className="projectContainer">
+                    <h4 style={{ float: "left" }}>RE</h4>
+                    <p
+                      style={{
+                        float: "right",
+                        paddingTop: "12px",
+                        fontSize: "16px",
+                      }}
+                    >
+                      Front-End•UX/UI•Illustration
+                    </p>{" "}
                     <Image src={RE} />
                     <p
                       style={{
@@ -195,53 +202,77 @@ function Home() {
                     >
                       Web and mobile environmental focused habit tracker.
                     </p>
-                  </a>
-                </div>
+                  </div>
+                </Link>
               </Grid.Column>
               <Grid.Column>
-                <div className="projectContainer">
-                  <h4 style={{ float: "left" }}>JAG</h4>
-                  <p style={{ float: "right", paddingTop: "12px" }}>UX</p>
-                  <a
-                    target="newTab"
-                    href="https://www.behance.net/gallery/92505293/JAG"
-                  >
-                    <Image src={JAG} alt="JAG Screen" />
+                <Link to="/JAG">
+                  <div className="projectContainer">
+                    <h4 style={{ float: "left" }}>JAG</h4>
                     <p
                       style={{
-                        textAlign: "center",
-                        color: "black",
-                        opacity: 0.6,
+                        float: "right",
+                        paddingTop: "12px",
+                        fontSize: "16px",
                       }}
                     >
-                      Mobile app concept to help college students form genuine
-                      connections amidst social and academic anxieties.
+                      UX
                     </p>
-                  </a>
-                </div>
+                    <a
+                      target="newTab"
+                      href="https://www.behance.net/gallery/92505293/JAG"
+                    >
+                      <Image
+                        src={JAG}
+                        alt="JAG Screen"
+                        style={{ marginBottom: "120px" }}
+                      />
+                      <p
+                        style={{
+                          textAlign: "center",
+                          color: "black",
+                          opacity: 0.6,
+                        }}
+                      >
+                        Mobile app concept to help college students form genuine
+                        connections amidst social and academic anxieties.
+                      </p>
+                    </a>
+                  </div>
+                </Link>
               </Grid.Column>
               <Grid.Column>
-                <div className="projectContainer">
-                  <h4 style={{ float: "left" }}>Screen Time</h4>
-                  <p style={{ float: "right", paddingTop: "12px" }}>UX</p>{" "}
-                  <a
-                    target="newTab"
-                    href="https://www.behance.net/gallery/102711929/ScreenTime-Adobe-Creative-Jam-x-Netflix"
-                  >
-                    <Image src={ScreenTime} alt="Screen Time Screen" />
+                <Link to="/screentime">
+                  <div className="projectContainer">
+                    <h4 style={{ float: "left" }}>Screen Time</h4>
                     <p
                       style={{
-                        textAlign: "center",
-                        color: "black",
-                        opacity: 0.6,
+                        float: "right",
+                        paddingTop: "12px",
+                        fontSize: "16px",
                       }}
                     >
-                      A web app experience geared towards collaborative viewing
-                      conceptualized for a Netflix sponsored Adobe UX Design
-                      Jam.
-                    </p>
-                  </a>
-                </div>
+                      UX
+                    </p>{" "}
+                    <a
+                      target="newTab"
+                      href="https://www.behance.net/gallery/102711929/ScreenTime-Adobe-Creative-Jam-x-Netflix"
+                    >
+                      <Image src={ScreenTime} alt="Screen Time Screen" />
+                      <p
+                        style={{
+                          textAlign: "center",
+                          color: "black",
+                          opacity: 0.6,
+                        }}
+                      >
+                        A web app experience geared towards collaborative
+                        viewing conceptualized for a Netflix sponsored Adobe UX
+                        Design Jam.
+                      </p>
+                    </a>
+                  </div>
+                </Link>
               </Grid.Column>
             </Grid>
           </nav>

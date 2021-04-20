@@ -133,12 +133,12 @@ function PetMatch() {
               Integrating the Petfinder API was more difficult than expected.
               Unlike APIs I was used to working with the Petfinder API
               constantly generated a new token that had to be fed into the
-              function call Each time a token was generated, we needed to log
-              that a token had been taken but not log the actual token. Token
-              had to be stashed in memory. Working with my teammate and our
-              professor we were able to successfully integrate the Petfinder API
-              which helped me become more comfortable with API integration as a
-              whole.
+              function call. Each time a token was generated we needed to log
+              that a token had been taken but not log the actual token. The
+              token had to be stashed in memory. Working with my teammate and
+              our professor we were able to successfully integrate the Petfinder
+              API which helped me become more comfortable with API integration
+              as a whole.
             </p>
           </Grid.Column>
         </Grid.Row>

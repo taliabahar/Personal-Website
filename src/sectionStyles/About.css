@@ -43,7 +43,7 @@ h1 {
 
 .subTitle {
   font-size: 50px !important;
-  padding-left: 50px;
+  padding-left: 50px !important;
 
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
