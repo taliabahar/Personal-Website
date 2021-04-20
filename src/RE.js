@@ -4,11 +4,12 @@ import "./sectionStyles/RE.css";
 import trackVideo from "./videos/PackTrackVid.mov";
 import { Grid, Image } from "semantic-ui-react";
 import REScreen from "./images/REScreen.png";
-import pack1 from "./images/pack1.png";
-import pack2 from "./images/pack2.png";
-import packWire from "./images/packWire.png";
-import taskFlow from "./images/taskFlow.png";
+
 import packBG from "./images/packBG.png";
+
+import HabitCards from "./images/RE_HabitCards.png";
+import Icons from "./images/RE_CategoryIcons.png";
+import Backgrounds from "./images/RE_HabitBackgrounds.png";
 
 function RE() {
   return (
@@ -45,8 +46,9 @@ function RE() {
           >
             <h3>The Problem</h3>
             <p>
-              With the rise of online shopping, it can be diificult to keep
-              track of shipments through emails.
+              As climate change worsens people need to become more
+              environmentally conscious but might not know where to start and
+              need something to keep them accountable.
             </p>{" "}
           </Grid.Column>
         </Grid.Row>
@@ -54,193 +56,111 @@ function RE() {
           <Grid.Column width={8}>
             <h3 style={{ textAlign: "center" }}>The Proposal</h3>
             <p>
-              A web app that consolidates shipments so users can easily and more
-              efficiently track their packages. Instead of having to dig through
-              emails and constantly find the tracking status of all online
-              orders made the user can provide my web app with the carrier and
-              tracking number related to each of their orders and track
-              everything at once and on one page. The delivery status and ETA of
-              the user’s package will also be accompanied by a map to display
-              the package's current location. Users will also be able to assign
-              a name to their package so that they know which package is which
-              on the tracking page. With this tool, users can see when all their
-              packages will arrive at their destination in one place.
+              An environemntal habit tracking app with resources to help people
+              better understand the impact taking up included habits has.
             </p>{" "}
           </Grid.Column>
           <Grid.Column width={8}>
             <h3 style={{ textAlign: "center" }}>User Benefits</h3>
             <ul>
               <li>
-                This app could be used by all types of online shoppers looking
-                for an easy way to track all their orders made across different
-                sites
+                Creates a simple and organized way to track environmental
+                related habits
               </li>
+              <li>Keeps users accountablee for daily habit completion</li>
               <li>
-                Gives user the freedom to plan their day around their estimated
-                ETAs if they need to be home when their package is delivered
-              </li>
-              <li>
-                If any packages are delayed or arrive earlier than expected it
-                will also be easier to see these changes through my web app{" "}
+                Gives people new ways to improve their carbon footprint and to
+                learn about the impact these good habits have
               </li>
             </ul>{" "}
           </Grid.Column>
         </Grid.Row>
-        <img
-          src={packWire}
-          alt="initial wireframes"
-          style={{ width: "70%", margin: "0 auto" }}
-        />
+
         <Grid.Row>
           <Grid.Column className="check">
             <h3>App Breakdown</h3>
             <p>
               <span>How It Works</span>
-              <br></br> The app tracks packages given a carrier and tracking
-              number and utilizes the Shippo and Mapbox APIs to display a
-              package’s current status and location on a map within a React
-              Modal.
+              <br></br> Users can sort through different habits based on their
+              related environmental category to add to their personal habits.
+              Clicking on a habit reveals a pop up card that gives users quick
+              insight into the habit. User are also provided with a learn more
+              page that gives a detailed look into the habit with links to more
+              information on the environmental impact. After adding habits user
+              can keep track of them in their user dashboard where they can go
+              to daily to check off habits as they complete them to receive a
+              badge.
             </p>
-            <p>
-              My package tracker is a single-page web app that initially loads
-              with a single form for users to fill out complete with a dropdown
-              of carriers, one text field for the tracking number, and one text
-              field for the package name. The form also includes a track button
-              and a remove package button. Users are also given the option to
-              add as many package input forms as they like through the add
-              package button. Users can thus easily track multiple packages at
-              once then use the remove package button to remove packages from
-              the form once they no longer need to track said package.
-            </p>
-            <p>
-              Upon completing all three inputs and clicking the track button if
-              the user’s data is valid a modal will appear in the middle of the
-              screen. This modal displays the user’s package name, package
-              status accompanied by a status indicator symbol, the status
-              detail, and the Mapbox map to display their package’s current
-              location. If the user inputs a tracking number or carrier that
-              does not correlate to a real package the modal will not pop up.
-              Instead, an error message appears.
-            </p>
-            <img src={taskFlow} style={{ margin: "45px 0px" }} />
-
             <p>
               <span>My Role</span>
-              <br></br>I individually wireframed, developed, and tested this
-              single-page React Hooks package tracker web app to satisfy
-              Nielson’s 5 usability metrics. I started by researching usability
-              guidelines to inform my design decisions and using Postman and
-              Curl to test the API endpoints I would be utilizing. I then
-              designed all the app artwork myself and integrated both mock data
-              and real data from two different APIs into the app.
+              <br></br>I served as the lead and only designer for the initial
+              stages of this developing web and mobile environmental habit
+              tracker app. I started by creating all digital artwork and
+              iconagrphy for web and mobile app versions using Adobe XD and
+              Illustrator. Using my designs and typography I then created a
+              style guide to establish the brand identity.
+            </p>
+            <p>
+              I then created high-fidelity wireframes and translated them into
+              to React and React Native code on a team of 2 developers.
+              Throughout my involvement with the app I engaged in weekly
+              meetings with non-tech and non-design focused team members
+              effectively communicating engineering principles and explaining
+              design decisions.
+            </p>
+            <p>
+              Once the app was functional I also helped lead rounds of user
+              testing for which I crafted user surveys for.
             </p>
 
             <p>
               <span>Design</span>
               <br></br>
               <p>
-                My package tracking web app is a single-page app, with only
-                three input fields, three buttons, designed to not overwhelm the
-                user, prevent errors, and be visually satisfying. Users would
-                not have a hard time tracking packages through my app because
-                there are only 3 main functionalities (track package, add
-                package, and remove package) presented to them that I have
-                designed to be intuitive.
-              </p>
-              <p>
-                {" "}
-                Since users only are required to manipulate three fields that
-                means there is less room for user-caused error and it should be
-                easy for users to learn and remember the process of tracking
-                packages on my web app. By adding the entry of the carrier as a
-                dropdown menu, instead of a text field, it prevents a lot of
-                errors that could be caused by spelling inconsistencies. For
-                example, if users type usps vs USPS. Having the dropdown also
-                allows a user to quickly determine whether or not their carrier
-                can be accessed through my web app. I also added to the site’s
-                efficiency by having the user assign a name to their package.
-                With this option users won’t have to memorize which tracking
-                order number relates to which package in their tracking log,
-                which also makes the information more digestible.
-              </p>
-              <p>
-                All 3 buttons were designed with click affordances in mind to
-                easily indicate to the user their functionality. The track
-                button includes a delivery truck image and is animated to
-                indicate its activity. The remove package button is a red X
-                which are two things commonly associated with removal and prompt
-                caution. Finally, the add package button has a green plus on it.
-                I also incorporated a red error message that is prompted when a
-                user attempts to track a non-existent package.
-              </p>
-              <p>
-                Aside from its usability, my web app's consistent and organized
-                design adds to my user's subjective satisfaction. I kept the
-                color scheme consistent; I used mostly the same shades of blues,
-                greys, and greens throughout. My centered layout doesn’t look
-                unbalanced and as users add more packages it will never look too
-                cluttered and thus never overwhelm the user visually.
-              </p>
-              <p>
-                I choose to group related elements by giving every package its
-                own box and making the three necessary inputs for each package
-                each be in separate boxes as well but with more subtle borders
-                to show they all belong to the same package. The tracking status
-                information is also all grouped in an organized way within the
-                modal. My grouped layout makes it easier for the user to parse
-                through information adding to the site’s efficiency and user
-                satisfaction. I placed interactive controls in the center and
-                placed the add package button in the upper-left corner since it
-                is an element that initiates a task. Moreover, I included an
-                animated color-coded tracking status indicator in the modal
-                which further added to the aesthetic and efficiency of the web
-                app.
+                I designed the app keeping in mind we wanted to attract a
+                younger audience new to environmentally conscious living. I used
+                earthy mid-tone colors for the icons and graphics. The app
+                layout is intuitive and simple. Habits are organized in grids
+                and the information for each habit is grouped into their
+                individual cards.
               </p>
             </p>
           </Grid.Column>
         </Grid.Row>
-        <Grid.Row style={{ marginTop: "60px" }}>
-          <Grid.Column width={8}>
-            {" "}
-            <img src={pack1} />
-          </Grid.Column>
-          <Grid.Column width={8}>
-            {" "}
-            <img src={pack2} />
-          </Grid.Column>
+        <Grid.Row style={{ marginTop: "60px", marginBottom: "35px" }} centered>
+          <img src={HabitCards} width="65%" />
         </Grid.Row>
         <Grid.Row>
           <Grid.Column className="check">
             <p>
               <span>Issues</span>
-              <br></br>
-              As this was my first large-scale solo project I encountered two
-              major issues. The first one resulted in me having to fake a
-              network call and use a relay because the API post method was not
-              working correctly because when called the network would recognize
-              it as an OPTIONS method. So I had to fake an OPTIONS request
-              method which I had never done before. The second error came after
-              I had changed the HTTP 200 status code to HTTP 201 in my error
-              checking function after errors were thrown but checking the
-              networks showed that the API call was successful. Days later my
-              app failed to track packages because errors were being prompted
-              again so I reverted my code base to the last working commit and
-              went through all the code and added console logs to no avail. I
-              then checked the network tab in the Chrome Developer tools and saw
-              the API was sending a status of 200 again so I had to change the
-              201 back to 200. While these issues were out of my comfort zone
-              they helped me become better at debugging and learn more about
-              networks.
+              <br></br> In the beginning of the app we struggled with finding
+              the best way to gameify the app to give users motivation to
+              complete habits daily. My initial solution was to give users
+              different badges as they complete more and more habits. Through
+              user interviews, we decided that future versions of RE will
+              incorporate streaks and leaderboards to create a fun sense of
+              competition between all users.
             </p>
           </Grid.Column>
         </Grid.Row>
-
-        <Grid.Row style={{ margin: "40px 0px" }}>
-          <Grid.Column className="check">
-            <h3>Design Assets</h3>
-            <img src={packBG} style={{ margin: "0 auto", width: "100%" }}></img>
+        <h3 className="check">Design Assets</h3>
+        <Grid.Row style={{ marginTop: "30px" }} className="check">
+          <Grid.Column width={8}>
+            {" "}
+            <img src={Backgrounds} />
+          </Grid.Column>
+          <Grid.Column width={8}>
+            {" "}
+            <img src={Icons} />
           </Grid.Column>
         </Grid.Row>
+        {/* <Grid.Row style={{ margin: "40px 0px" }} centered>
+          <Grid.Column className="check">
+            <img src={Backgrounds} width="70%" />
+            <img src={Icons} width="70%" />
+          </Grid.Column>
+        </Grid.Row> */}
         <Grid.Row>
           <Grid.Column className="check">
             <h3>Tech Used</h3>
@@ -249,27 +169,27 @@ function RE() {
                 <span>Languages:</span> JavaScript, HTML, CSS
               </li>
               <li>
-                <span>Frameworks: </span>React
+                <span>Frameworks: </span>React, React Native
               </li>
-              <li>
-                <span>APIs:</span> Shippo, Mapbox
-              </li>
+              {/* <li>
+                <span>APIs:</span>
+              </li> */}
               <li>
                 <span>Graphics:</span> Adobe Illustrator
               </li>
               <li>
-                <span>Wireframes:</span> InVision
+                <span>Wireframes:</span> AdobeXD
               </li>
             </ul>
           </Grid.Column>
         </Grid.Row>
-        <video
+        {/* <video
           src={trackVideo}
           width="750"
           height="500"
           controls
           style={{ margin: "0 auto", marginBottom: "50px" }}
-        />
+        /> */}
       </Grid>
       <footer>© 2021 Talia Bahar</footer>
     </div>

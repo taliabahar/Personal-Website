@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import "./sectionStyles/ScreenTime.css";
-import { Grid, GridColumn, Image } from "semantic-ui-react";
+import { Grid } from "semantic-ui-react";
 import ScreenTimeScreen from "./images/ScreenTimeScreen.png";
 import styleGuide from "./images/ScreenTime_StyleGuide.png";
 import wire1 from "./images/STWire1.png";

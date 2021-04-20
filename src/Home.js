@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Nav from "./Nav";
-import Resume from "./documents/Resume-TaliaBahar.pdf";
+import Resume from "./documents/TaliaBahar-OnlineResume.pdf";
 import DesignResume from "./documents/TaliaBahar_DesignResume.pdf";
 import profilePic from "./images/talia.jpeg";
 import { Grid, Image } from "semantic-ui-react";
@@ -163,7 +163,7 @@ function Home() {
                     <Image
                       src={TWS}
                       alt="TWS Screen"
-                      style={{ marginBottom: "20px" }}
+                      style={{ marginBottom: "190px" }}
                     />
                     <p
                       style={{
@@ -225,7 +225,7 @@ function Home() {
                       <Image
                         src={JAG}
                         alt="JAG Screen"
-                        style={{ marginBottom: "20px" }}
+                        style={{ marginBottom: "120px" }}
                       />
                       <p
                         style={{

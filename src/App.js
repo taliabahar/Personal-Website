@@ -11,7 +11,7 @@ import RE from "./RE";
 import JAG from "./JAG";
 import ScreenTime from "./ScreenTime";
 
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -46,14 +46,6 @@ function App() {
             </Route>
           </Switch>
         </div>
-        {/* <Home></Home> */}
-        {/* <About></About> */}
-        {/* <Projects></Projects> */}
-        {/* <AboutMe></AboutMe> */}
-        {/* <Projects2> </Projects2> */}
-        {/* <PetMatch></PetMatch> */}
-        {/* <PackageTracker></PackageTracker> */}
-        {/* <TWS></TWS> */}
         <Footer></Footer>
       </Router>
     </div>
