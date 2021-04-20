@@ -100,12 +100,30 @@ function JAG() {
             <h3>App Breakdown</h3>
             <p>
               <span>How It Works</span>
-              <br></br> The app tracks packages given a carrier and tracking
-              number and utilizes the Shippo and Mapbox APIs to display a
-              package’s current status and location on a map within a React
-              Modal.
+              <br></br> Upon opening the app for the first time users are
+              prompted to create their profile. After adding a profile picture,
+              filling out basic info, then defining their general interests,
+              skills they have, and skills they want to learn they are
+              introduced to the dual world of JAG.
             </p>
-
+            <p>
+              JAG Education mode is used when users want to find or create posts
+              to form study groups with other students or learn new skills that
+              fit their interests. JAG Social mode is used when users want to
+              find or create posts to meet new people on campus though more
+              social activities. These can be facilitated by the JAG community
+              or their university.
+            </p>
+            <p>
+              Events can be filtered by category, day of the week, distance,
+              time, and cost. Users can bookmark events if they are unsure if
+              they will attend when they first see it but also have the option
+              to withdraw from any of their joined events as well. Event posters
+              can choose whether or not they want to allow comments on their
+              posts or to allow DMs from other users regarding their event.
+              Users can switch between education and social events at any time
+              depending on their needs.
+            </p>
             <p>
               <span>My Role</span>
               <br></br>My partner and I worked very closely on this project from
@@ -117,13 +135,26 @@ function JAG() {
               <span>Design</span>
               <br></br>
               <p>
-                My package tracking web app is a single-page app, with only
-                three input fields, three buttons, designed to not overwhelm the
-                user, prevent errors, and be visually satisfying. Users would
-                not have a hard time tracking packages through my app because
-                there are only 3 main functionalities (track package, add
-                package, and remove package) presented to them that I have
-                designed to be intuitive.
+                Our mid-fi testing revealed to us that we needed to go further
+                and differentiate between our two modes more visually. In our
+                high-fi wireframes we used color and our logo to display to
+                users what mode they were in. Purple and the logo variation
+                where the jaguar is wearing a party hat denotes a user is in
+                social mode. Orange and the logo variation where the jaguar is
+                wearing a graduation cap denotes a user is in education mode. We
+                also created a custom gradient of our two main colors for when
+                the mode did not matter such as when on the profile page. We
+                chose orange and purple to be our two main colors because of the
+                inviting tone of the colors and it is a combo not heavily
+                associated with any other product.
+              </p>
+              <p>
+                The app's main features are divided into home, events,
+                bookmarks, and my profile and features a toggle button to switch
+                between education and social mode. We desgined the app with
+                screen real estate in mind making sure to keep the optimal
+                amount of white space. All event information is grouped together
+                in boxes for easier viewing as well.
               </p>
             </p>
             <img
@@ -160,15 +191,6 @@ function JAG() {
               users to select either education or social mode. We also added
               user profiles to make user's feel safer and on the profile page we
               also added event goals for user accountability.
-            </p>
-            <p>
-              Our mid-fi testing revealed to us that we needed to go further and
-              differentiate between our two modes more visually. In our high-fi
-              wireframes we used color and our logo to display to users what
-              mode they were in. Purple and the logo variation where the jaguar
-              is wearing a party hat denotes a user is in social mode. Orange
-              and the logo variation where the jaguar is wearing a graduation
-              cap denotes a user is in education mode.
             </p>
           </Grid.Column>
         </Grid.Row>
