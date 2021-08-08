@@ -91,35 +91,6 @@ function Home() {
           <nav>
             <Grid container columns={2} stackable style={{ display: "inline" }}>
               <Grid.Column>
-                <Link to="/petmatch">
-                  <div className="projectContainer">
-                    <div>
-                      <h4 style={{ float: "left" }}>Pet Match</h4>
-                      <p
-                        style={{
-                          float: "right",
-                          paddingTop: "12px",
-                          fontSize: "16px",
-                        }}
-                      >
-                        Front-End•Project Management
-                      </p>
-                    </div>
-                    <Image src={PetMatch} alt="Pet Match Screen" />
-                    <p
-                      style={{
-                        textAlign: "center",
-                        color: "black",
-                        opacity: 0.6,
-                      }}
-                    >
-                      React web app that helps users easily find adoptable pets
-                      that meet their needs.
-                    </p>
-                  </div>
-                </Link>
-              </Grid.Column>
-              <Grid.Column>
                 <Link to="/packagetracker">
                   <div className="projectContainer">
                     <h4 style={{ float: "left" }}>Package Tracker</h4>
@@ -133,7 +104,13 @@ function Home() {
                       Full-Stack•UX/UI
                     </p>
 
-                    <Image src={PackTrack} alt="Package Tracker Screen" />
+                    <Image
+                      src={PackTrack}
+                      alt="Package Tracker Screen"
+                      style={{
+                        paddingBottom: "40px",
+                      }}
+                    />
                     <p
                       style={{
                         textAlign: "center",
@@ -163,7 +140,7 @@ function Home() {
                     <Image
                       src={TWS}
                       alt="TWS Screen"
-                      style={{ paddingBottom: "20px" }}
+                      style={{ paddingBottom: "15px" }}
                     />
                     <p
                       style={{
@@ -175,32 +152,6 @@ function Home() {
                       News-centered React web app MVP created for Mozilla's
                       Fix-the-Internet Spring 2020 Hackternship to address
                       misinformation online.
-                    </p>
-                  </div>
-                </Link>
-              </Grid.Column>
-              <Grid.Column>
-                <Link to="/re">
-                  <div className="projectContainer">
-                    <h4 style={{ float: "left" }}>RE</h4>
-                    <p
-                      style={{
-                        float: "right",
-                        paddingTop: "12px",
-                        fontSize: "16px",
-                      }}
-                    >
-                      Front-End•UX/UI•Illustration
-                    </p>{" "}
-                    <Image src={RE} />
-                    <p
-                      style={{
-                        textAlign: "center",
-                        color: "black",
-                        opacity: 0.6,
-                      }}
-                    >
-                      Web and mobile environmental focused habit tracker.
                     </p>
                   </div>
                 </Link>
@@ -260,6 +211,67 @@ function Home() {
                       A web app experience geared towards collaborative viewing
                       conceptualized for a Netflix sponsored Adobe UX Design
                       Jam.
+                    </p>
+                  </div>
+                </Link>
+              </Grid.Column>
+              <Grid.Column>
+                <Link to="/petmatch">
+                  <div className="projectContainer">
+                    <div>
+                      <h4 style={{ float: "left" }}>Pet Match</h4>
+                      <p
+                        style={{
+                          float: "right",
+                          paddingTop: "12px",
+                          fontSize: "16px",
+                        }}
+                      >
+                        Front-End•Project Management
+                      </p>
+                    </div>
+                    <Image
+                      src={PetMatch}
+                      alt="Pet Match Screen"
+                      style={{
+                        paddingBottom: "45px",
+                      }}
+                    />
+                    <p
+                      style={{
+                        textAlign: "center",
+                        color: "black",
+                        opacity: 0.6,
+                      }}
+                    >
+                      React web app that helps users easily find adoptable pets
+                      that meet their needs.
+                    </p>
+                  </div>
+                </Link>
+              </Grid.Column>
+              <Grid.Column>
+                <Link to="/re">
+                  <div className="projectContainer">
+                    <h4 style={{ float: "left" }}>RE</h4>
+                    <p
+                      style={{
+                        float: "right",
+                        paddingTop: "12px",
+                        fontSize: "16px",
+                      }}
+                    >
+                      Front-End•UX/UI•Illustration
+                    </p>{" "}
+                    <Image src={RE} />
+                    <p
+                      style={{
+                        textAlign: "center",
+                        color: "black",
+                        opacity: 0.6,
+                      }}
+                    >
+                      Web and mobile environmental focused habit tracker.
                     </p>
                   </div>
                 </Link>
