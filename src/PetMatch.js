@@ -128,7 +128,7 @@ function PetMatch() {
             </p>
 
             <p>
-              <span>Issues</span>
+              <span>Challenges</span>
               <br></br>
               Integrating the Petfinder API was more difficult than expected.
               Unlike APIs I was used to working with the Petfinder API

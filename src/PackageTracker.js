@@ -211,7 +211,7 @@ function PackageTracker() {
         <Grid.Row>
           <Grid.Column className="check">
             <p>
-              <span>Issues</span>
+              <span>Challenges</span>
               <br></br>
               As this was my first large-scale solo project I encountered two
               major issues. The first one resulted in me having to fake a

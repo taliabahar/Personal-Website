@@ -37,6 +37,13 @@ function ScreenTime() {
         </a>
         <h2 id="title">ScreenTime</h2>
         <p>UX Designer • Web Experience • 2020 </p>
+        <p>
+          Collaborated on with
+          <a href="https://www.behance.net/nataliestainton">
+            {" "}
+            Natalie Stainton
+          </a>
+        </p>
         <p style={{ fontStyle: "oblique" }}>Adobe x Netflix Creative Jam</p>
       </div>
       <Grid stackable>
@@ -169,7 +176,7 @@ function ScreenTime() {
         <Grid.Row>
           <Grid.Column className="check">
             <p>
-              <span>Issues</span>
+            <span>Challenges</span>
               <br></br>
               As we only had a 24-hour window to work on this project my partner
               and I did not run into any large-scale issues. We communicated

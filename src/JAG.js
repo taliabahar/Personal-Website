@@ -24,6 +24,10 @@ function JAG() {
         </a>
         <h2 id="title">JAG</h2>
         <p>UX Designer • Mobile App • 2019 </p>
+        <p>
+          Collaborated on with
+          <a href="https://www.behance.net/maddyisbell"> Maddy Isbell</a>
+        </p>
         <p style={{ fontStyle: "oblique" }}>
           ART498 Intro to UX Design Semester Project
         </p>
@@ -174,7 +178,7 @@ function JAG() {
         <Grid.Row>
           <Grid.Column className="check">
             <p>
-              <span>Issues</span>
+              <span>Challenges</span>
               <br></br>
               Our biggest challenege was deciding on whether or not our app
               should be split into a social and education mode as some might

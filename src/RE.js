@@ -35,6 +35,10 @@ function RE() {
           Lead UX/UI Designer / Front-End Developer / Illustrator • React Native
           App • 2021{" "}
         </p>
+        <p>
+          Collaborated on with
+          <a href="https://github.com/mb0606"> Marco Berardini</a>
+        </p>
         <p style={{ fontStyle: "oblique" }}>LMU funded internship project</p>
       </div>
       <Grid stackable>
@@ -133,7 +137,7 @@ function RE() {
         <Grid.Row>
           <Grid.Column className="check">
             <p>
-              <span>Issues</span>
+              <span>Challenges</span>
               <br></br> In the beginning of the app we struggled with finding
               the best way to gameify the app to give users motivation to
               complete habits daily. My initial solution was to give users

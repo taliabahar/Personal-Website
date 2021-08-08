@@ -163,7 +163,7 @@ function Home() {
                     <Image
                       src={TWS}
                       alt="TWS Screen"
-                      style={{ marginBottom: "190px" }}
+                      style={{ paddingBottom: "20px" }}
                     />
                     <p
                       style={{
@@ -218,26 +218,21 @@ function Home() {
                     >
                       UX
                     </p>
-                    <a
-                      target="newTab"
-                      href="https://www.behance.net/gallery/92505293/JAG"
+                    <Image
+                      src={JAG}
+                      alt="JAG Screen"
+                      style={{ paddingBottom: "27px" }}
+                    />
+                    <p
+                      style={{
+                        textAlign: "center",
+                        color: "black",
+                        opacity: 0.6,
+                      }}
                     >
-                      <Image
-                        src={JAG}
-                        alt="JAG Screen"
-                        style={{ marginBottom: "120px" }}
-                      />
-                      <p
-                        style={{
-                          textAlign: "center",
-                          color: "black",
-                          opacity: 0.6,
-                        }}
-                      >
-                        Mobile app concept to help college students form genuine
-                        connections amidst social and academic anxieties.
-                      </p>
-                    </a>
+                      Mobile app concept to help college students form genuine
+                      connections amidst social and academic anxieties.
+                    </p>
                   </div>
                 </Link>
               </Grid.Column>
@@ -254,23 +249,18 @@ function Home() {
                     >
                       UX
                     </p>{" "}
-                    <a
-                      target="newTab"
-                      href="https://www.behance.net/gallery/102711929/ScreenTime-Adobe-Creative-Jam-x-Netflix"
+                    <Image src={ScreenTime} alt="Screen Time Screen" />
+                    <p
+                      style={{
+                        textAlign: "center",
+                        color: "black",
+                        opacity: 0.6,
+                      }}
                     >
-                      <Image src={ScreenTime} alt="Screen Time Screen" />
-                      <p
-                        style={{
-                          textAlign: "center",
-                          color: "black",
-                          opacity: 0.6,
-                        }}
-                      >
-                        A web app experience geared towards collaborative
-                        viewing conceptualized for a Netflix sponsored Adobe UX
-                        Design Jam.
-                      </p>
-                    </a>
+                      A web app experience geared towards collaborative viewing
+                      conceptualized for a Netflix sponsored Adobe UX Design
+                      Jam.
+                    </p>
                   </div>
                 </Link>
               </Grid.Column>

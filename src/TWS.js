@@ -203,7 +203,7 @@ function TWS() {
             <img src={twsHiFi}></img>
 
             <p>
-              <span>Issues</span>
+              <span>Challenges</span>
               <p>
                 At the beginning of the project, we struggled with figuring out
                 how to gamify our app to attract users. We ultimately came up

@@ -14,11 +14,11 @@ function AboutMe() {
         <Grid.Row columns={1}>
           <Grid.Column>
             <p className="aboutBlurb">
-              I am a Los Angeles, CA native graduating from Loyola Marymount
-              University with a Bachelor's in Computer Science and a minor in
-              Graphic Arts. My background is in web development with a focus on
-              front-end, React, API integration, accessibility, and graphic
-              design. I also have a strong interest in transitioning my
+              I am a Los Angeles, CA native who recently graduated from Loyola
+              Marymount University with a Bachelor's in Computer Science and a
+              minor in Graphic Arts. My background is in web development with a
+              focus on front-end, React, API integration, accessibility, and
+              graphic design. I also have a strong interest in transitioning my
               technical and design skills into the UX/UI world. I am very
               interested in working on projects where I can combine both my
               technical and design skills to have a positive impact on peoples'
@@ -52,8 +52,8 @@ function AboutMe() {
               Research(SOAR) program and Mozilla's Fix-the-Internet
               Hackternship. Outside of school, I enjoy working on personal
               projects to build my programming skills, attending design jams to
-              build my user experience skills, and creating fun illustrations
-              and logos to express myself creatively.
+              build my UX skills, and creating fun illustrations and logos to
+              express myself creatively.
             </p>
           </Grid.Column>
           <Grid.Column>
@@ -116,8 +116,8 @@ function AboutMe() {
             <strong>
               <p>Loyola Marymount University</p>
             </strong>
-            <p>Bachelor of Science, Computer Science + Graphic Arts Minor</p>
-            <p>Current GPA: 3.56</p>
+            <p>Bachelor of Science, Computer Science / Graphic Arts Minor</p>
+            <p>GPA: 3.58 / Dean’s List: Fall 2018, 2019, 2020, Spring 2021</p>
             <p>August 2017 – May 2021</p>{" "}
           </Grid.Column>
           <Grid.Column>
@@ -137,7 +137,7 @@ function AboutMe() {
             <p>
               <span>Affiliations:</span> Association of Computing Machinery
               (Events Chair), Han Tao Cultural Club (Member), Society of Women
-              Engineers (Member),
+              Engineers (Member)
             </p>{" "}
           </Grid.Column>
         </Grid.Row>
@@ -201,11 +201,13 @@ function AboutMe() {
               <li>Git</li>
               <li>InVision</li>
               <li>Expo</li>
-              <li>Node.js</li>
+              <li>Jira</li>
               <li>Postman</li>
               <li>MongoDB</li>
-              <li>Firebase</li>
+              <li>Sharepoint</li>
               <li>SiteImprove</li>
+              <li>ServiceNow</li>
+              <li>TerminalFour</li>
             </ul>
           </Grid.Column>
           <Grid.Column>
