@@ -3,7 +3,7 @@ import "./App.css";
 import "./sectionStyles/About.css";
 import Nav from "./Nav";
 import Resume from "./documents/Resume-TaliaBahar.pdf";
-import DesignResume from "./documents/TaliaBahar_DesignResume.pdf";
+import DesignResume from "./documents/TaliaBahar-OnlineResume.pdf";
 import { Grid } from "semantic-ui-react";
 import profilePic from "./images/talia.jpeg";
 
@@ -69,7 +69,7 @@ function About() {
               <a href={Resume} target="newTab">
                 <button className="aboutBtn">TECHNICAL RESUME</button>
               </a>
-              <a href="mailto:tbahar@lion.lmu.edu.com">
+              <a href="mailto:taliabahar99@gmail.com">
                 <button className="aboutBtn">CONTACT ME :)</button>
               </a>
             </div>

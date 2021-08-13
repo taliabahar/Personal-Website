@@ -59,7 +59,7 @@ export default class MenuExampleSecondary extends Component {
             style={{ fontWeight: "700" }}
             name="contact"
             onClick={this.handleItemClick}
-            href="mailto:tbahar@lion.lmu.edu.com"
+            href="mailto:taliabahar99@gmail.com"
           />
         </Menu.Menu>
       </Menu>

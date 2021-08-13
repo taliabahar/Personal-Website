@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import "./sectionStyles/AboutMe.css";
 import profilePic from "./images/talia.jpeg";
-import Resume from "./documents/Resume-TaliaBahar.pdf";
+import Resume from "./documents/TaliaBahar-OnlineResume.pdf";
 
 import { Grid, Image } from "semantic-ui-react";
 
@@ -103,7 +103,7 @@ function AboutMe() {
                 <a href={Resume} target="newTab">
                   <button className="aboutBtn">TECHNICAL RESUME</button>
                 </a>
-                <a href="mailto:tbahar@lion.lmu.edu.com">
+                <a href="mailto:taliabahar99@gmail.com">
                   <button className="aboutBtn">CONTACT ME :)</button>
                 </a>
               </div>

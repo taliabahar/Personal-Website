@@ -77,9 +77,9 @@ function Home() {
               </div>
               <div className="aboutBtns">
                 <a href={Resume} target="newTab">
-                  <button className="aboutBtn">TECHNICAL RESUME</button>
+                  <button className="aboutBtn">MY RESUME</button>
                 </a>
-                <a href="mailto:tbahar@lion.lmu.edu.com">
+                <a href="mailto:taliabahar99@gmail.com">
                   <button className="aboutBtn">CONTACT ME :)</button>
                 </a>
               </div>
